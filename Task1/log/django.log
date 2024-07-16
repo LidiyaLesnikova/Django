@@ -1,0 +1,12 @@
+INFO 2024-07-16 19:46:54,957 autoreload 7152 16220 Watching for file changes with StatReloader
+INFO 2024-07-16 19:47:02,379 basehttp 7152 17004 "GET / HTTP/1.1" 200 13
+INFO 2024-07-16 19:47:06,416 basehttp 7152 17004 "GET / HTTP/1.1" 200 13
+INFO 2024-07-16 19:47:11,949 basehttp 7152 17004 "GET /about/ HTTP/1.1" 200 8
+INFO 2024-07-16 19:49:01,966 autoreload 7152 16220 D:\LESSONS\PYTHON\Django\DZ\Task1\firstapp\views.py changed, reloading.
+INFO 2024-07-16 19:49:02,780 autoreload 2140 6572 Watching for file changes with StatReloader
+INFO 2024-07-16 19:49:05,447 autoreload 2140 6572 D:\LESSONS\PYTHON\Django\DZ\Task1\firstapp\views.py changed, reloading.
+INFO 2024-07-16 19:49:06,488 autoreload 4868 14092 Watching for file changes with StatReloader
+INFO 2024-07-16 19:49:34,908 autoreload 4868 14092 D:\LESSONS\PYTHON\Django\DZ\Task1\firstapp\views.py changed, reloading.
+INFO 2024-07-16 19:49:35,826 autoreload 14696 13612 Watching for file changes with StatReloader
+INFO 2024-07-16 19:49:37,508 autoreload 14696 13612 D:\LESSONS\PYTHON\Django\DZ\Task1\firstapp\views.py changed, reloading.
+INFO 2024-07-16 19:49:38,615 autoreload 15428 10128 Watching for file changes with StatReloader
