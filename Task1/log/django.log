@@ -89,3 +89,1415 @@ INFO 2024-07-16 21:24:28,625 autoreload 13364 16516 Watching for file changes wi
 INFO 2024-07-16 21:24:40,249 autoreload 13364 16516 D:\LESSONS\PYTHON\Django\DZ\Task1\firstapp\views.py changed, reloading.
 INFO 2024-07-16 21:24:41,087 autoreload 1792 6404 Watching for file changes with StatReloader
 INFO 2024-07-16 21:24:46,147 basehttp 1792 12184 "GET /about/ HTTP/1.1" 200 253
+INFO 2024-07-19 20:16:07,988 autoreload 8488 18108 Watching for file changes with StatReloader
+INFO 2024-07-19 20:16:12,760 basehttp 8488 13124 "GET / HTTP/1.1" 200 181
+INFO 2024-07-19 20:16:14,425 basehttp 8488 13124 "GET / HTTP/1.1" 200 181
+INFO 2024-07-19 20:16:54,273 autoreload 8488 18108 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:16:55,415 autoreload 15956 424 Watching for file changes with StatReloader
+INFO 2024-07-19 20:16:58,135 autoreload 15956 424 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:16:58,954 autoreload 10596 15160 Watching for file changes with StatReloader
+INFO 2024-07-19 20:17:12,756 autoreload 10596 15160 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:17:13,656 autoreload 1232 5776 Watching for file changes with StatReloader
+INFO 2024-07-19 20:17:23,496 autoreload 1232 5776 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:17:24,378 autoreload 15404 10904 Watching for file changes with StatReloader
+INFO 2024-07-19 20:17:33,129 autoreload 15404 10904 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:17:34,047 autoreload 11152 7832 Watching for file changes with StatReloader
+INFO 2024-07-19 20:17:38,741 autoreload 11152 7832 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:17:39,552 autoreload 17440 14400 Watching for file changes with StatReloader
+INFO 2024-07-19 20:17:41,249 autoreload 17440 14400 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:17:42,266 autoreload 7252 13056 Watching for file changes with StatReloader
+INFO 2024-07-19 20:17:48,797 basehttp 7252 5804 "GET / HTTP/1.1" 200 181
+WARNING 2024-07-19 20:17:57,018 log 7252 5804 Not Found: /magazin
+WARNING 2024-07-19 20:17:57,018 basehttp 7252 5804 "GET /magazin HTTP/1.1" 404 2534
+WARNING 2024-07-19 20:19:54,649 log 7252 5804 Not Found: /magazin/
+WARNING 2024-07-19 20:19:54,649 basehttp 7252 5804 "GET /magazin/ HTTP/1.1" 404 2537
+INFO 2024-07-19 20:20:06,829 autoreload 7252 13056 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\urls.py changed, reloading.
+INFO 2024-07-19 20:20:07,654 autoreload 4456 15156 Watching for file changes with StatReloader
+INFO 2024-07-19 20:20:11,354 basehttp 4456 13732 "GET /magazin/ HTTP/1.1" 200 31
+INFO 2024-07-19 20:20:20,315 basehttp 4456 13732 "GET / HTTP/1.1" 200 181
+INFO 2024-07-19 20:20:25,076 basehttp 4456 13732 "GET /magazin/ HTTP/1.1" 200 31
+INFO 2024-07-19 20:20:58,256 basehttp 4456 13732 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-19 20:21:34,899 autoreload 4456 15156 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:21:35,856 autoreload 7496 5272 Watching for file changes with StatReloader
+INFO 2024-07-19 20:21:38,175 basehttp 7496 12260 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-19 20:21:49,030 autoreload 7496 5272 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:21:50,311 autoreload 18392 10188 Watching for file changes with StatReloader
+INFO 2024-07-19 20:21:53,375 basehttp 18392 13476 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-19 20:22:19,390 autoreload 18392 10188 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:22:20,333 autoreload 17280 12856 Watching for file changes with StatReloader
+INFO 2024-07-19 20:22:23,070 autoreload 17280 12856 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:22:24,306 autoreload 5692 14624 Watching for file changes with StatReloader
+INFO 2024-07-19 20:22:26,882 autoreload 5692 14624 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:22:27,877 autoreload 13824 10540 Watching for file changes with StatReloader
+INFO 2024-07-19 20:24:59,419 autoreload 13824 10540 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:00,313 autoreload 17920 15432 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:02,079 autoreload 17920 15432 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:03,030 autoreload 16536 2712 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:08,750 autoreload 16536 2712 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:09,751 autoreload 9072 16900 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:12,377 autoreload 9072 16900 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:13,309 autoreload 15948 11160 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:14,917 autoreload 15948 11160 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:15,820 autoreload 3224 17752 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:17,396 autoreload 3224 17752 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:18,257 autoreload 15608 10672 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:23,102 autoreload 15608 10672 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:23,943 autoreload 17060 16116 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:38,613 autoreload 17060 16116 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:39,563 autoreload 15636 18328 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:43,324 autoreload 15636 18328 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:44,205 autoreload 11760 14956 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:51,889 autoreload 11760 14956 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:52,757 autoreload 12548 16772 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:54,291 autoreload 12548 16772 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:55,317 autoreload 15920 17072 Watching for file changes with StatReloader
+INFO 2024-07-19 20:25:56,981 autoreload 15920 17072 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:25:57,862 autoreload 18212 14748 Watching for file changes with StatReloader
+INFO 2024-07-19 20:26:04,552 autoreload 18212 14748 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:26:05,425 autoreload 16424 14184 Watching for file changes with StatReloader
+INFO 2024-07-19 20:26:27,636 autoreload 16424 14184 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:26:28,569 autoreload 10004 7512 Watching for file changes with StatReloader
+INFO 2024-07-19 20:26:30,111 autoreload 10004 7512 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:26:31,057 autoreload 13512 14760 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:18,322 autoreload 13512 14760 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:19,399 autoreload 15920 11992 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:21,033 autoreload 15920 11992 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:21,952 autoreload 16900 12528 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:24,580 autoreload 16900 12528 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:25,954 autoreload 15188 17332 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:28,478 autoreload 15188 17332 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:29,435 autoreload 15916 17272 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:34,929 autoreload 15916 17272 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:36,157 autoreload 17188 17060 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:41,782 autoreload 17188 17060 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:42,811 autoreload 17696 13792 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:47,413 autoreload 17696 13792 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:48,477 autoreload 2500 16764 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:51,028 autoreload 2500 16764 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:51,907 autoreload 14480 15600 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:55,468 autoreload 14480 15600 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:56,739 autoreload 17776 17716 Watching for file changes with StatReloader
+INFO 2024-07-19 20:30:58,208 autoreload 17776 17716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:30:59,268 autoreload 15468 2852 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:00,759 autoreload 15468 2852 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:01,867 autoreload 17780 9072 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:03,412 autoreload 17780 9072 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:04,249 autoreload 15288 11872 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:08,848 autoreload 15288 11872 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:09,676 autoreload 17520 6404 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:21,788 autoreload 17520 6404 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:22,787 autoreload 6136 260 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:28,525 autoreload 6136 260 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:29,469 autoreload 14116 16056 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:35,997 autoreload 14116 16056 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:36,907 autoreload 16100 11968 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:38,268 autoreload 16100 11968 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:39,242 autoreload 8548 11124 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:42,664 autoreload 8548 11124 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:43,975 autoreload 12296 15112 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:46,285 autoreload 12296 15112 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:47,100 autoreload 18008 2712 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:49,393 autoreload 18008 2712 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:50,469 autoreload 18228 6460 Watching for file changes with StatReloader
+INFO 2024-07-19 20:31:55,916 autoreload 18228 6460 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:31:56,843 autoreload 14064 13140 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:02,242 autoreload 14064 13140 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:03,561 autoreload 17948 14588 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:08,021 autoreload 17948 14588 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:08,945 autoreload 13952 1232 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:36,992 autoreload 13952 1232 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:37,910 autoreload 17920 11764 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:41,343 autoreload 17920 11764 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:42,209 autoreload 17440 14592 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:43,514 autoreload 17440 14592 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:44,575 autoreload 4508 7052 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:49,992 autoreload 4508 7052 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:50,831 autoreload 7624 17660 Watching for file changes with StatReloader
+INFO 2024-07-19 20:32:55,170 autoreload 7624 17660 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:32:56,002 autoreload 17524 14944 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:01,367 autoreload 17524 14944 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:02,161 autoreload 14448 18048 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:04,477 autoreload 14448 18048 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:05,406 autoreload 18116 18340 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:06,717 autoreload 18116 18340 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:07,560 autoreload 12444 17560 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:25,267 autoreload 12444 17560 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:26,126 autoreload 15012 17920 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:28,454 autoreload 15012 17920 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:29,261 autoreload 17956 17424 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:40,825 autoreload 17956 17424 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:41,755 autoreload 12420 7628 Watching for file changes with StatReloader
+INFO 2024-07-19 20:33:44,481 autoreload 12420 7628 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:33:45,288 autoreload 15416 7624 Watching for file changes with StatReloader
+INFO 2024-07-19 20:35:13,128 autoreload 15416 7624 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:35:13,983 autoreload 10912 1808 Watching for file changes with StatReloader
+INFO 2024-07-19 20:35:21,387 autoreload 10912 1808 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:35:22,233 autoreload 11828 17664 Watching for file changes with StatReloader
+INFO 2024-07-19 20:35:27,658 autoreload 11828 17664 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:35:28,709 autoreload 16784 14360 Watching for file changes with StatReloader
+INFO 2024-07-19 20:35:30,162 autoreload 16784 14360 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:35:31,218 autoreload 15096 11160 Watching for file changes with StatReloader
+INFO 2024-07-19 20:35:35,616 autoreload 15096 11160 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:35:36,495 autoreload 18248 16056 Watching for file changes with StatReloader
+INFO 2024-07-19 20:47:35,359 autoreload 18248 16056 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:47:36,291 autoreload 7700 17956 Watching for file changes with StatReloader
+INFO 2024-07-19 20:47:46,253 autoreload 7700 17956 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:47:47,190 autoreload 10568 11552 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:00,809 autoreload 10568 11552 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:01,735 autoreload 17808 16840 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:05,196 autoreload 17808 16840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:06,373 autoreload 18264 5776 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:08,035 autoreload 18264 5776 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:08,935 autoreload 13656 14208 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:12,492 autoreload 13656 14208 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:13,513 autoreload 18340 14056 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:33,719 autoreload 18340 14056 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:34,625 autoreload 17660 8396 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:39,346 autoreload 17660 8396 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:40,166 autoreload 15860 11756 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:51,696 autoreload 15860 11756 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:52,588 autoreload 12296 936 Watching for file changes with StatReloader
+INFO 2024-07-19 20:53:57,115 autoreload 12296 936 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:53:57,873 autoreload 13252 11860 Watching for file changes with StatReloader
+INFO 2024-07-19 20:58:36,240 autoreload 13252 11860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:58:37,162 autoreload 18016 12752 Watching for file changes with StatReloader
+INFO 2024-07-19 20:58:40,928 autoreload 18016 12752 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:58:41,825 autoreload 14660 4220 Watching for file changes with StatReloader
+INFO 2024-07-19 20:58:48,495 autoreload 14660 4220 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:58:49,452 autoreload 12944 17696 Watching for file changes with StatReloader
+INFO 2024-07-19 20:58:51,786 autoreload 12944 17696 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:58:52,656 autoreload 11968 16224 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:03,192 autoreload 11968 16224 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:04,105 autoreload 11308 4988 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:08,548 autoreload 11308 4988 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:09,525 autoreload 10236 10928 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:13,956 autoreload 10236 10928 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:14,909 autoreload 6284 16404 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:19,339 autoreload 6284 16404 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:20,391 autoreload 11060 2144 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:24,776 autoreload 11060 2144 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:25,756 autoreload 8436 17524 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:27,108 autoreload 8436 17524 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:27,923 autoreload 15020 10188 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:31,246 autoreload 15020 10188 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:32,309 autoreload 6136 3668 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:37,696 autoreload 6136 3668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:38,789 autoreload 17472 14692 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:45,349 autoreload 17472 14692 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:46,197 autoreload 13276 15636 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:47,527 autoreload 13276 15636 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:48,465 autoreload 17232 16764 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:53,136 autoreload 17232 16764 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:53,950 autoreload 17944 13332 Watching for file changes with StatReloader
+INFO 2024-07-19 20:59:57,415 autoreload 17944 13332 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 20:59:58,457 autoreload 5256 11768 Watching for file changes with StatReloader
+INFO 2024-07-19 21:00:25,398 autoreload 5256 11768 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:00:26,312 autoreload 4328 12396 Watching for file changes with StatReloader
+INFO 2024-07-19 21:00:41,989 autoreload 4328 12396 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:00:42,878 autoreload 7336 11616 Watching for file changes with StatReloader
+INFO 2024-07-19 21:00:45,263 autoreload 7336 11616 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:00:46,157 autoreload 16528 18204 Watching for file changes with StatReloader
+INFO 2024-07-19 21:00:48,431 autoreload 16528 18204 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:00:49,370 autoreload 12296 13900 Watching for file changes with StatReloader
+INFO 2024-07-19 21:00:50,679 autoreload 12296 13900 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:00:51,842 autoreload 14740 13868 Watching for file changes with StatReloader
+INFO 2024-07-19 21:00:55,184 autoreload 14740 13868 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:00:56,108 autoreload 4208 8624 Watching for file changes with StatReloader
+INFO 2024-07-19 21:01:04,536 autoreload 4208 8624 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:01:05,352 autoreload 2808 4612 Watching for file changes with StatReloader
+INFO 2024-07-19 21:01:09,714 autoreload 2808 4612 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:01:10,568 autoreload 2024 3312 Watching for file changes with StatReloader
+INFO 2024-07-19 21:01:38,480 autoreload 2024 3312 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:01:39,642 autoreload 15112 18188 Watching for file changes with StatReloader
+INFO 2024-07-19 21:01:45,366 autoreload 15112 18188 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:01:46,261 autoreload 3080 18408 Watching for file changes with StatReloader
+INFO 2024-07-19 21:01:54,988 autoreload 3080 18408 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:01:55,885 autoreload 5960 14704 Watching for file changes with StatReloader
+INFO 2024-07-19 21:02:02,432 autoreload 5960 14704 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:02:03,354 autoreload 18196 8920 Watching for file changes with StatReloader
+INFO 2024-07-19 21:02:04,750 autoreload 18196 8920 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:02:05,524 autoreload 1684 6024 Watching for file changes with StatReloader
+INFO 2024-07-19 21:02:08,879 autoreload 1684 6024 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:02:09,877 autoreload 14396 7752 Watching for file changes with StatReloader
+INFO 2024-07-19 21:02:38,873 autoreload 14396 7752 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:02:39,936 autoreload 13648 17844 Watching for file changes with StatReloader
+INFO 2024-07-19 21:04:15,315 autoreload 13648 17844 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:04:16,362 autoreload 17556 9936 Watching for file changes with StatReloader
+INFO 2024-07-19 21:04:19,763 autoreload 17556 9936 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:04:20,755 autoreload 16356 12540 Watching for file changes with StatReloader
+INFO 2024-07-19 21:04:22,078 autoreload 16356 12540 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:04:22,929 autoreload 14944 10092 Watching for file changes with StatReloader
+INFO 2024-07-19 21:04:29,390 autoreload 14944 10092 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:04:30,296 autoreload 13048 18400 Watching for file changes with StatReloader
+INFO 2024-07-19 21:04:33,615 autoreload 13048 18400 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:04:34,427 autoreload 2896 7684 Watching for file changes with StatReloader
+INFO 2024-07-19 21:05:31,300 autoreload 2896 7684 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:05:32,228 autoreload 17880 13560 Watching for file changes with StatReloader
+INFO 2024-07-19 21:05:36,629 autoreload 17880 13560 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:05:37,465 autoreload 6788 10852 Watching for file changes with StatReloader
+INFO 2024-07-19 21:05:39,032 autoreload 6788 10852 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:05:40,001 autoreload 13040 13004 Watching for file changes with StatReloader
+INFO 2024-07-19 21:05:47,443 autoreload 13040 13004 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:05:48,345 autoreload 10200 18076 Watching for file changes with StatReloader
+INFO 2024-07-19 21:05:53,782 autoreload 10200 18076 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:05:54,694 autoreload 8560 8860 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:03,135 autoreload 8560 8860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:03,977 autoreload 12960 16172 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:10,382 autoreload 12960 16172 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:11,276 autoreload 13072 14076 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:16,787 autoreload 13072 14076 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:17,622 autoreload 9076 1588 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:30,170 autoreload 9076 1588 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:31,020 autoreload 13380 15020 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:35,411 autoreload 13380 15020 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:36,468 autoreload 4072 17304 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:37,883 autoreload 4072 17304 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:38,840 autoreload 17548 14512 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:43,329 autoreload 17548 14512 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:44,272 autoreload 5408 17808 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:46,557 autoreload 5408 17808 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:47,613 autoreload 15420 8484 Watching for file changes with StatReloader
+INFO 2024-07-19 21:06:54,171 autoreload 15420 8484 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:06:55,043 autoreload 14260 17524 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:02,468 autoreload 14260 17524 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:03,473 autoreload 9840 17712 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:04,884 autoreload 9840 17712 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:05,891 autoreload 14544 12900 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:07,197 autoreload 14544 12900 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:08,246 autoreload 17120 17064 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:09,537 autoreload 17120 17064 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:10,490 autoreload 11176 15428 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:14,831 autoreload 11176 15428 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:15,848 autoreload 14112 12224 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:17,141 autoreload 14112 12224 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:18,125 autoreload 8560 13988 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:21,502 autoreload 8560 13988 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:22,456 autoreload 5960 17652 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:26,879 autoreload 5960 17652 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:27,740 autoreload 6524 3420 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:39,264 autoreload 6524 3420 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:40,084 autoreload 16488 18220 Watching for file changes with StatReloader
+INFO 2024-07-19 21:07:48,552 autoreload 16488 18220 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:07:49,525 autoreload 12900 17448 Watching for file changes with StatReloader
+INFO 2024-07-19 21:08:04,187 autoreload 12900 17448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:08:05,018 autoreload 17612 14716 Watching for file changes with StatReloader
+INFO 2024-07-19 21:08:08,427 autoreload 17612 14716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:08:09,516 autoreload 15508 11992 Watching for file changes with StatReloader
+INFO 2024-07-19 21:08:34,411 autoreload 15508 11992 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:08:35,213 autoreload 15108 16160 Watching for file changes with StatReloader
+ERROR 2024-07-19 21:08:49,830 log 15108 17508 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 16, in create_fake_bases
+    new_product = Product(name=f'product{i}',
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'adress'
+ERROR 2024-07-19 21:08:49,835 basehttp 15108 17508 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 73115
+INFO 2024-07-19 21:09:51,267 autoreload 15108 16160 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:09:52,146 autoreload 17828 12928 Watching for file changes with StatReloader
+ERROR 2024-07-19 21:09:59,030 log 17828 15072 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 21, in create_fake_bases
+    for i in range(random.randint(101)):
+                   ^^^^^^^^^^^^^^^^^^^
+TypeError: Random.randint() missing 1 required positional argument: 'b'
+ERROR 2024-07-19 21:09:59,033 basehttp 17828 15072 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 66627
+INFO 2024-07-19 21:11:49,866 autoreload 17828 12928 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:11:50,836 autoreload 12472 1932 Watching for file changes with StatReloader
+INFO 2024-07-19 21:11:52,516 autoreload 12472 1932 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:11:53,455 autoreload 11892 15592 Watching for file changes with StatReloader
+INFO 2024-07-19 21:11:58,013 autoreload 11892 15592 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:11:58,902 autoreload 12256 9956 Watching for file changes with StatReloader
+INFO 2024-07-19 21:12:03,546 autoreload 12256 9956 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:12:04,482 autoreload 11620 17232 Watching for file changes with StatReloader
+INFO 2024-07-19 21:12:54,292 autoreload 11620 17232 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:12:55,229 autoreload 14340 3668 Watching for file changes with StatReloader
+INFO 2024-07-19 21:12:56,571 autoreload 14340 3668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:12:57,451 autoreload 7252 3136 Watching for file changes with StatReloader
+INFO 2024-07-19 21:13:00,035 autoreload 7252 3136 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:13:01,126 autoreload 10928 11128 Watching for file changes with StatReloader
+INFO 2024-07-19 21:13:16,967 autoreload 10928 11128 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:13:17,860 autoreload 5576 17240 Watching for file changes with StatReloader
+INFO 2024-07-19 21:13:25,664 autoreload 5576 17240 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:13:26,567 autoreload 16720 17776 Watching for file changes with StatReloader
+INFO 2024-07-19 21:13:35,357 autoreload 16720 17776 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:13:36,381 autoreload 2792 17560 Watching for file changes with StatReloader
+INFO 2024-07-19 21:13:37,910 autoreload 2792 17560 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:13:38,790 autoreload 13696 3488 Watching for file changes with StatReloader
+INFO 2024-07-19 21:13:42,504 autoreload 13696 3488 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:13:43,401 autoreload 17104 18292 Watching for file changes with StatReloader
+ERROR 2024-07-19 21:14:10,803 log 17104 13316 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 22, in create_fake_bases
+    new_order = Order(client_id = random.randint(1, 11))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 284, in __set__
+    raise ValueError(
+ValueError: Cannot assign "11": "Order.client_id" must be a "Client" instance.
+ERROR 2024-07-19 21:14:10,803 basehttp 17104 13316 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 77003
+WARNING 2024-07-19 21:17:17,404 log 17104 12420 Not Found: /favicon.ico
+WARNING 2024-07-19 21:17:17,404 basehttp 17104 12420 "GET /favicon.ico HTTP/1.1" 404 2545
+INFO 2024-07-19 21:18:54,292 autoreload 17104 18292 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:18:55,223 autoreload 4072 17404 Watching for file changes with StatReloader
+INFO 2024-07-19 21:18:57,884 autoreload 4072 17404 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:18:58,695 autoreload 7268 13808 Watching for file changes with StatReloader
+INFO 2024-07-19 21:19:08,482 autoreload 7268 13808 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:19:09,539 autoreload 15020 1560 Watching for file changes with StatReloader
+INFO 2024-07-19 21:19:12,092 autoreload 15020 1560 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:19:12,990 autoreload 11976 5180 Watching for file changes with StatReloader
+ERROR 2024-07-19 21:19:22,385 log 11976 16620 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 22, in create_fake_bases
+    new_order = Order(client_id = random.randint(1, 10))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 284, in __set__
+    raise ValueError(
+ValueError: Cannot assign "4": "Order.client_id" must be a "Client" instance.
+ERROR 2024-07-19 21:19:22,385 basehttp 11976 16620 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 76997
+INFO 2024-07-19 21:21:56,183 autoreload 11976 5180 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:21:57,029 autoreload 14480 17768 Watching for file changes with StatReloader
+INFO 2024-07-19 21:21:59,748 autoreload 14480 17768 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:01,469 autoreload 16428 17808 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:04,012 autoreload 16428 17808 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:04,996 autoreload 14360 3108 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:06,521 autoreload 14360 3108 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:07,439 autoreload 16704 5804 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:09,062 autoreload 16704 5804 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:10,199 autoreload 12420 12860 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:12,830 autoreload 12420 12860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:13,695 autoreload 11768 18068 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:18,110 autoreload 11768 18068 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:18,889 autoreload 6636 12296 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:36,907 autoreload 6636 12296 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:37,857 autoreload 17412 17748 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:41,584 autoreload 17412 17748 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:42,449 autoreload 18064 14652 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:45,100 autoreload 18064 14652 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:45,953 autoreload 15132 17512 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:47,512 autoreload 15132 17512 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:48,333 autoreload 17728 17524 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:51,050 autoreload 17728 17524 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:51,958 autoreload 13672 9972 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:55,294 autoreload 13672 9972 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:56,127 autoreload 5496 12508 Watching for file changes with StatReloader
+INFO 2024-07-19 21:22:57,437 autoreload 5496 12508 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:22:58,414 autoreload 3312 7840 Watching for file changes with StatReloader
+INFO 2024-07-19 21:23:30,810 autoreload 3312 7840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:23:31,660 autoreload 11520 13208 Watching for file changes with StatReloader
+INFO 2024-07-19 21:23:33,264 autoreload 11520 13208 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:23:34,087 autoreload 8808 14396 Watching for file changes with StatReloader
+INFO 2024-07-19 21:23:38,930 autoreload 8808 14396 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:23:39,978 autoreload 17480 5628 Watching for file changes with StatReloader
+INFO 2024-07-19 21:23:43,708 autoreload 17480 5628 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:23:44,914 autoreload 9396 12000 Watching for file changes with StatReloader
+INFO 2024-07-19 21:23:58,936 autoreload 9396 12000 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:00,083 autoreload 7120 15420 Watching for file changes with StatReloader
+INFO 2024-07-19 21:24:02,161 autoreload 7120 15420 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:03,329 autoreload 17508 4220 Watching for file changes with StatReloader
+INFO 2024-07-19 21:24:05,639 autoreload 17508 4220 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:06,582 autoreload 16184 13264 Watching for file changes with StatReloader
+INFO 2024-07-19 21:24:10,262 autoreload 16184 13264 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:11,579 autoreload 3624 1836 Watching for file changes with StatReloader
+INFO 2024-07-19 21:24:26,462 autoreload 3624 1836 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:27,421 autoreload 3768 17976 Watching for file changes with StatReloader
+INFO 2024-07-19 21:24:30,147 autoreload 3768 17976 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:31,050 autoreload 18204 12832 Watching for file changes with StatReloader
+INFO 2024-07-19 21:24:32,567 autoreload 18204 12832 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 21:24:33,424 autoreload 17540 17576 Watching for file changes with StatReloader
+ERROR 2024-07-19 21:25:05,725 log 17540 4540 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: secondapp_order.total_price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 23, in create_fake_bases
+    new_order.save()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: secondapp_order.total_price
+ERROR 2024-07-19 21:25:05,745 basehttp 17540 4540 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 146865
+INFO 2024-07-19 21:25:42,266 autoreload 17540 17576 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 21:25:43,212 autoreload 12472 13212 Watching for file changes with StatReloader
+INFO 2024-07-19 21:30:25,528 autoreload 5576 14624 Watching for file changes with StatReloader
+INFO 2024-07-19 21:30:34,508 basehttp 5576 560 "GET / HTTP/1.1" 200 181
+INFO 2024-07-19 21:30:39,505 basehttp 5576 560 "GET /magazin/ HTTP/1.1" 200 31
+ERROR 2024-07-19 21:30:49,962 log 5576 560 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: secondapp_order.total_price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 23, in create_fake_bases
+    new_order.save()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: secondapp_order.total_price
+ERROR 2024-07-19 21:30:49,978 basehttp 5576 560 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 146728
+INFO 2024-07-19 22:09:37,289 autoreload 18176 16720 Watching for file changes with StatReloader
+INFO 2024-07-19 22:09:42,686 basehttp 18176 7700 "GET / HTTP/1.1" 200 181
+INFO 2024-07-19 22:09:47,540 basehttp 18176 7700 "GET /magazin/ HTTP/1.1" 200 31
+ERROR 2024-07-19 22:09:53,100 log 18176 7700 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: secondapp_order.total_price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 23, in create_fake_bases
+    new_order.save()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: secondapp_order.total_price
+ERROR 2024-07-19 22:09:53,118 basehttp 18176 7700 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 146787
+INFO 2024-07-19 22:10:52,313 autoreload 18176 16720 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:10:53,242 autoreload 17412 15456 Watching for file changes with StatReloader
+INFO 2024-07-19 22:12:06,025 autoreload 17412 15456 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:12:06,966 autoreload 13724 2256 Watching for file changes with StatReloader
+INFO 2024-07-19 22:17:52,776 autoreload 13724 2256 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:17:53,681 autoreload 13340 16664 Watching for file changes with StatReloader
+INFO 2024-07-19 22:19:32,426 autoreload 12312 15640 Watching for file changes with StatReloader
+INFO 2024-07-19 22:19:34,395 basehttp 12312 16804 "GET / HTTP/1.1" 200 181
+INFO 2024-07-19 22:19:39,343 basehttp 12312 16804 "GET /magazin/ HTTP/1.1" 200 31
+INFO 2024-07-19 22:19:47,234 basehttp 12312 16804 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-19 22:21:57,374 autoreload 17080 17028 Watching for file changes with StatReloader
+INFO 2024-07-19 22:22:08,343 autoreload 17080 17028 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:22:09,183 autoreload 15324 12760 Watching for file changes with StatReloader
+INFO 2024-07-19 22:22:25,238 autoreload 15324 12760 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:22:25,977 autoreload 16496 16996 Watching for file changes with StatReloader
+INFO 2024-07-19 22:23:02,465 autoreload 16496 16996 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:23:03,221 autoreload 15608 5084 Watching for file changes with StatReloader
+INFO 2024-07-19 22:23:50,496 basehttp 15608 15384 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-19 22:32:41,211 autoreload 13048 7052 Watching for file changes with StatReloader
+INFO 2024-07-19 22:32:56,898 autoreload 13048 7052 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:32:57,778 autoreload 14668 15236 Watching for file changes with StatReloader
+INFO 2024-07-19 22:32:59,142 autoreload 14668 15236 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:33:00,126 autoreload 15728 4204 Watching for file changes with StatReloader
+INFO 2024-07-19 22:33:01,482 autoreload 15728 4204 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:33:02,278 autoreload 15204 4008 Watching for file changes with StatReloader
+INFO 2024-07-19 22:33:03,686 autoreload 15204 4008 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:33:04,673 autoreload 2620 14976 Watching for file changes with StatReloader
+INFO 2024-07-19 22:33:13,012 basehttp 2620 10676 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-19 22:43:14,082 autoreload 2620 14976 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:43:14,969 autoreload 17328 17564 Watching for file changes with StatReloader
+INFO 2024-07-19 22:43:17,879 autoreload 17328 17564 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:43:18,864 autoreload 7048 13484 Watching for file changes with StatReloader
+INFO 2024-07-19 22:43:24,267 autoreload 7048 13484 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:43:25,164 autoreload 8552 16848 Watching for file changes with StatReloader
+INFO 2024-07-19 22:43:26,583 autoreload 8552 16848 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:43:27,412 autoreload 15980 10840 Watching for file changes with StatReloader
+INFO 2024-07-19 22:43:30,792 autoreload 15980 10840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:43:31,656 autoreload 11900 11448 Watching for file changes with StatReloader
+INFO 2024-07-19 22:43:46,295 autoreload 11900 11448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:43:47,256 autoreload 13328 14208 Watching for file changes with StatReloader
+INFO 2024-07-19 22:44:00,286 autoreload 13328 14208 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:44:01,376 autoreload 6748 16228 Watching for file changes with StatReloader
+INFO 2024-07-19 22:44:05,131 autoreload 6748 16228 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-19 22:44:06,051 autoreload 8036 15108 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:02,669 autoreload 8036 15108 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:03,492 autoreload 15980 10712 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:08,327 autoreload 15980 10712 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:09,198 autoreload 15696 13936 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:11,838 autoreload 15696 13936 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:12,761 autoreload 4200 13596 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:20,451 autoreload 4200 13596 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:21,615 autoreload 12040 9808 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:24,039 autoreload 12040 9808 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:24,855 autoreload 12496 3668 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:33,351 autoreload 12496 3668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:34,132 autoreload 14276 17448 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:36,542 autoreload 14276 17448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:37,302 autoreload 1620 16304 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:42,761 autoreload 1620 16304 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:43,676 autoreload 10104 14020 Watching for file changes with StatReloader
+INFO 2024-07-19 22:46:44,966 autoreload 10104 14020 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:46:45,896 autoreload 1548 2848 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:39,616 autoreload 1548 2848 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:40,403 autoreload 11352 7208 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:42,120 autoreload 11352 7208 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:43,040 autoreload 5476 6860 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:45,669 autoreload 5476 6860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:46,700 autoreload 16576 2572 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:49,157 autoreload 16576 2572 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:50,016 autoreload 18000 14456 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:51,507 autoreload 18000 14456 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:52,526 autoreload 17828 16668 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:54,040 autoreload 17828 16668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:55,245 autoreload 2764 8560 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:56,746 autoreload 2764 8560 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:57,865 autoreload 9408 80 Watching for file changes with StatReloader
+INFO 2024-07-19 22:47:59,131 autoreload 9408 80 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:47:59,937 autoreload 15112 8096 Watching for file changes with StatReloader
+INFO 2024-07-19 22:48:34,257 autoreload 15112 8096 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:48:35,281 autoreload 13400 8928 Watching for file changes with StatReloader
+INFO 2024-07-19 22:48:38,084 autoreload 13400 8928 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:48:38,990 autoreload 2656 8860 Watching for file changes with StatReloader
+INFO 2024-07-19 22:48:40,461 autoreload 2656 8860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:48:41,324 autoreload 15196 18328 Watching for file changes with StatReloader
+INFO 2024-07-19 22:48:53,183 autoreload 15196 18328 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:48:54,251 autoreload 7052 8396 Watching for file changes with StatReloader
+INFO 2024-07-19 22:48:55,954 autoreload 7052 8396 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:48:56,857 autoreload 9800 4504 Watching for file changes with StatReloader
+INFO 2024-07-19 22:48:59,172 autoreload 9800 4504 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:49:00,148 autoreload 16116 12144 Watching for file changes with StatReloader
+INFO 2024-07-19 22:49:02,449 autoreload 16116 12144 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:49:03,297 autoreload 12264 17608 Watching for file changes with StatReloader
+INFO 2024-07-19 22:49:04,599 autoreload 12264 17608 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:49:05,738 autoreload 14936 18244 Watching for file changes with StatReloader
+INFO 2024-07-19 22:49:08,042 autoreload 14936 18244 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:49:08,984 autoreload 1524 12308 Watching for file changes with StatReloader
+INFO 2024-07-19 22:49:10,278 autoreload 1524 12308 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:49:11,195 autoreload 15256 15004 Watching for file changes with StatReloader
+INFO 2024-07-19 22:49:16,621 autoreload 15256 15004 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-19 22:49:17,629 autoreload 3312 14592 Watching for file changes with StatReloader
+ERROR 2024-07-19 22:49:57,360 log 3312 13924 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table secondapp_order has no column named count_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 23, in create_fake_bases
+    new_order.save()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table secondapp_order has no column named count_product
+ERROR 2024-07-19 22:49:57,378 basehttp 3312 13924 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 148039
+INFO 2024-07-19 22:51:06,545 autoreload 13964 13496 Watching for file changes with StatReloader
+INFO 2024-07-19 22:51:24,444 basehttp 13964 18044 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 13:15:35,335 autoreload 8600 7980 Watching for file changes with StatReloader
+ERROR 2024-07-20 13:15:41,596 log 8600 6640 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 23, in create_fake_bases
+    new_order.save()
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py", line 29, in save
+    self.count_product = self.product.count()
+                         ^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 650, in __get__
+    return self.related_manager_cls(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 1069, in __init__
+    raise ValueError(
+ValueError: "<Order: Order is None>" needs to have a value for field "id" before this many-to-many relationship can be used.
+ERROR 2024-07-20 13:15:41,596 basehttp 8600 6640 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 80436
+WARNING 2024-07-20 13:15:41,895 log 8600 6640 Not Found: /favicon.ico
+WARNING 2024-07-20 13:15:41,895 basehttp 8600 6640 "GET /favicon.ico HTTP/1.1" 404 2545
+INFO 2024-07-20 13:20:11,443 autoreload 8600 7980 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:20:12,355 autoreload 680 3840 Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:13,965 autoreload 680 3840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:20:14,851 autoreload 7928 3572 Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:48,043 autoreload 7928 3572 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:20:48,983 autoreload 12820 11208 Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:50,507 autoreload 12820 11208 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:20:51,274 autoreload 4316 7208 Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:52,790 autoreload 4316 7208 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:20:53,716 autoreload 12084 11944 Watching for file changes with StatReloader
+INFO 2024-07-20 13:21:30,118 autoreload 12084 11944 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:21:30,984 autoreload 10168 12088 Watching for file changes with StatReloader
+INFO 2024-07-20 13:21:32,526 autoreload 10168 12088 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:21:33,367 autoreload 7504 3424 Watching for file changes with StatReloader
+INFO 2024-07-20 13:21:52,230 autoreload 7504 3424 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:21:52,995 autoreload 5832 13052 Watching for file changes with StatReloader
+INFO 2024-07-20 13:22:06,578 basehttp 5832 1764 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 13:34:41,188 autoreload 5832 13052 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:34:42,229 autoreload 11696 10144 Watching for file changes with StatReloader
+INFO 2024-07-20 13:34:47,644 autoreload 11696 10144 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:34:48,472 autoreload 6008 1716 Watching for file changes with StatReloader
+INFO 2024-07-20 13:34:49,832 autoreload 6008 1716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:34:51,213 autoreload 1496 9292 Watching for file changes with StatReloader
+INFO 2024-07-20 13:34:59,797 autoreload 1496 9292 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:35:00,803 autoreload 12716 6544 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:11,473 autoreload 12716 6544 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:12,247 autoreload 3340 4472 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:18,667 autoreload 3340 4472 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:19,458 autoreload 10092 1716 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:22,774 autoreload 10092 1716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:23,612 autoreload 7404 1672 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:24,905 autoreload 7404 1672 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:25,964 autoreload 11644 10496 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:27,250 autoreload 11644 10496 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:28,063 autoreload 11740 1692 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:33,413 autoreload 11740 1692 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:34,336 autoreload 7624 8856 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:36,724 autoreload 7624 8856 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:37,579 autoreload 7500 6644 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:38,878 autoreload 7500 6644 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:39,712 autoreload 6868 3660 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:42,019 autoreload 6868 3660 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:42,868 autoreload 9872 1092 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:45,164 autoreload 9872 1092 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:45,977 autoreload 13264 440 Watching for file changes with StatReloader
+INFO 2024-07-20 13:36:51,367 autoreload 13264 440 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:36:52,274 autoreload 12548 6872 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:04,782 autoreload 12548 6872 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:05,595 autoreload 7232 12936 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:06,879 autoreload 7232 12936 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:07,580 autoreload 10144 7312 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:10,915 autoreload 10144 7312 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:11,933 autoreload 11728 3340 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:13,224 autoreload 11728 3340 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:14,021 autoreload 8360 11612 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:15,294 autoreload 8360 11612 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:16,202 autoreload 6236 8444 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:20,685 autoreload 6236 8444 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:21,976 autoreload 8840 7148 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:24,271 autoreload 8840 7148 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:25,176 autoreload 5496 11480 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:40,667 autoreload 5496 11480 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:41,480 autoreload 4764 3828 Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:46,005 autoreload 4764 3828 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:37:46,766 autoreload 12860 13164 Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:29,002 autoreload 12860 13164 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:38:29,812 autoreload 3420 80 Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:17,170 autoreload 3420 80 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:39:18,065 autoreload 12940 12736 Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:20,353 autoreload 12940 12736 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:39:21,009 autoreload 13184 5688 Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:29,525 autoreload 13184 5688 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:39:30,209 autoreload 12452 6640 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:27,052 autoreload 12452 6640 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:27,768 autoreload 3272 13152 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:32,370 autoreload 3272 13152 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:33,280 autoreload 9184 12740 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:34,505 autoreload 9184 12740 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:35,232 autoreload 12928 668 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:39,682 autoreload 12928 668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:40,535 autoreload 7000 10572 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:42,934 autoreload 7000 10572 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:43,722 autoreload 8332 10440 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:55,151 autoreload 8332 10440 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:55,930 autoreload 7768 3420 Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:59,185 autoreload 7768 3420 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:41:59,909 autoreload 9872 6440 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:03,172 autoreload 9872 6440 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:03,866 autoreload 8980 13164 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:06,100 autoreload 8980 13164 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:07,052 autoreload 5208 8992 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:19,551 autoreload 5208 8992 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:20,292 autoreload 3532 1868 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:21,581 autoreload 3532 1868 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:22,320 autoreload 2760 11612 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:23,565 autoreload 2760 11612 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:24,230 autoreload 12320 11728 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:26,473 autoreload 12320 11728 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:27,180 autoreload 7268 9512 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:31,452 autoreload 7268 9512 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:32,181 autoreload 1704 12216 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:39,755 autoreload 1704 12216 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:40,662 autoreload 6552 5472 Watching for file changes with StatReloader
+INFO 2024-07-20 13:42:42,319 autoreload 6552 5472 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:42:43,588 autoreload 7232 1680 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:06,777 autoreload 7232 1680 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:07,542 autoreload 7948 2924 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:15,167 autoreload 7948 2924 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:16,035 autoreload 1196 11864 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:17,370 autoreload 1196 11864 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:18,151 autoreload 12768 6620 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:19,427 autoreload 12768 6620 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:20,129 autoreload 12936 2056 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:22,589 autoreload 12936 2056 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:23,367 autoreload 432 2740 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:25,840 autoreload 432 2740 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:26,577 autoreload 9420 10760 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:29,068 autoreload 9420 10760 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:30,048 autoreload 2932 7416 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:33,362 autoreload 2932 7416 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:34,128 autoreload 5716 8516 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:35,499 autoreload 5716 8516 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:36,283 autoreload 7456 12832 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:37,704 autoreload 7456 12832 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:38,751 autoreload 9512 680 Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:58,619 autoreload 9512 680 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:43:59,469 autoreload 9980 12820 Watching for file changes with StatReloader
+INFO 2024-07-20 13:44:02,978 autoreload 9980 12820 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:44:03,795 autoreload 5932 4188 Watching for file changes with StatReloader
+INFO 2024-07-20 13:44:07,104 autoreload 5932 4188 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:44:07,791 autoreload 5548 7136 Watching for file changes with StatReloader
+INFO 2024-07-20 13:44:23,414 autoreload 5548 7136 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:44:24,146 autoreload 10228 3016 Watching for file changes with StatReloader
+INFO 2024-07-20 13:44:33,756 autoreload 10228 3016 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:44:34,490 autoreload 2984 7500 Watching for file changes with StatReloader
+INFO 2024-07-20 13:45:15,787 autoreload 2984 7500 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:45:16,536 autoreload 8184 4388 Watching for file changes with StatReloader
+INFO 2024-07-20 13:45:19,994 autoreload 8184 4388 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:45:20,858 autoreload 10948 6820 Watching for file changes with StatReloader
+INFO 2024-07-20 13:45:25,291 autoreload 10948 6820 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:45:26,018 autoreload 3420 12908 Watching for file changes with StatReloader
+INFO 2024-07-20 13:45:32,405 autoreload 3420 12908 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:45:33,236 autoreload 12472 12740 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:07,388 autoreload 12472 12740 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 13:46:08,760 autoreload 5564 668 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:14,301 autoreload 5564 668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:15,065 autoreload 3580 9212 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:21,382 autoreload 3580 9212 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:22,078 autoreload 8016 12312 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:33,551 autoreload 8016 12312 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:34,281 autoreload 10720 7952 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:36,765 autoreload 10720 7952 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:37,661 autoreload 7696 11192 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:41,973 autoreload 7696 11192 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:42,820 autoreload 11504 8640 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:45,140 autoreload 11504 8640 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:46,253 autoreload 3328 7508 Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:50,667 autoreload 3328 7508 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:46:51,686 autoreload 3308 13120 Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:01,291 autoreload 3308 13120 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:47:02,170 autoreload 12740 9292 Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:05,804 autoreload 12740 9292 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:47:06,539 autoreload 3312 9716 Watching for file changes with StatReloader
+INFO 2024-07-20 13:55:23,790 autoreload 9184 4576 Watching for file changes with StatReloader
+INFO 2024-07-20 13:55:35,915 autoreload 9184 4576 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 13:55:36,704 autoreload 10600 7668 Watching for file changes with StatReloader
+INFO 2024-07-20 13:55:43,651 basehttp 10600 10096 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 14:38:12,675 autoreload 10600 7668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:38:13,714 autoreload 2096 4360 Watching for file changes with StatReloader
+INFO 2024-07-20 14:38:15,141 autoreload 2096 4360 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:38:15,924 autoreload 932 10804 Watching for file changes with StatReloader
+INFO 2024-07-20 14:38:38,980 autoreload 932 10804 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:38:39,829 autoreload 4820 1008 Watching for file changes with StatReloader
+INFO 2024-07-20 14:38:42,197 autoreload 4820 1008 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:38:43,000 autoreload 1216 3504 Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:19,165 autoreload 1216 3504 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:40:19,974 autoreload 12216 3728 Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:22,347 autoreload 12216 3728 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:40:23,083 autoreload 5852 10972 Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:30,473 autoreload 5852 10972 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:40:31,220 autoreload 10496 5980 Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:44,733 autoreload 10496 5980 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:40:46,104 autoreload 2944 8860 Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:51,651 autoreload 2944 8860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:40:52,432 autoreload 8528 5484 Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:59,866 autoreload 8528 5484 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:41:00,822 autoreload 3016 13176 Watching for file changes with StatReloader
+INFO 2024-07-20 14:41:02,137 autoreload 3016 13176 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:41:02,893 autoreload 12900 11504 Watching for file changes with StatReloader
+INFO 2024-07-20 14:41:04,178 autoreload 12900 11504 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:41:05,071 autoreload 4912 7296 Watching for file changes with StatReloader
+INFO 2024-07-20 14:41:06,366 autoreload 4912 7296 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:41:07,249 autoreload 2984 84 Watching for file changes with StatReloader
+INFO 2024-07-20 14:41:13,614 autoreload 2984 84 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 14:41:14,314 autoreload 5396 9840 Watching for file changes with StatReloader
+INFO 2024-07-20 15:11:43,178 autoreload 5396 9840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 15:11:43,923 autoreload 10720 7176 Watching for file changes with StatReloader
+INFO 2024-07-20 18:35:39,851 autoreload 10720 7176 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 18:35:40,656 autoreload 9224 9928 Watching for file changes with StatReloader
+INFO 2024-07-20 18:35:42,940 autoreload 9224 9928 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 18:35:43,683 autoreload 2028 8948 Watching for file changes with StatReloader
+INFO 2024-07-20 18:38:14,513 autoreload 2028 8948 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 18:38:15,304 autoreload 12296 2468 Watching for file changes with StatReloader
+INFO 2024-07-20 18:38:19,685 autoreload 12296 2468 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 18:38:20,439 autoreload 2056 6316 Watching for file changes with StatReloader
+INFO 2024-07-20 18:38:29,889 autoreload 2056 6316 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 18:38:30,723 autoreload 8912 2124 Watching for file changes with StatReloader
+INFO 2024-07-20 19:13:16,223 autoreload 10804 5732 Watching for file changes with StatReloader
+INFO 2024-07-20 19:13:21,652 basehttp 10804 4180 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 19:16:02,089 basehttp 10804 4180 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 19:23:59,949 autoreload 10804 5732 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:24:00,821 autoreload 9400 8556 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:05,434 autoreload 9400 8556 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:24:06,183 autoreload 12936 7840 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:07,677 autoreload 12936 7840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:24:08,570 autoreload 6216 5340 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:25,294 autoreload 6216 5340 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:26,149 autoreload 9148 3700 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:28,741 autoreload 9148 3700 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:29,542 autoreload 11728 8860 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:31,838 autoreload 11728 8860 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:32,602 autoreload 13096 13084 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:34,156 autoreload 13096 13084 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:34,887 autoreload 3616 12216 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:37,264 autoreload 3616 12216 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:38,172 autoreload 1304 8684 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:40,659 autoreload 1304 8684 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:41,511 autoreload 5636 1368 Watching for file changes with StatReloader
+INFO 2024-07-20 19:24:47,030 autoreload 5636 1368 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:24:47,975 autoreload 8864 6244 Watching for file changes with StatReloader
+INFO 2024-07-20 19:25:08,895 autoreload 8864 6244 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:25:09,655 autoreload 88 3696 Watching for file changes with StatReloader
+INFO 2024-07-20 19:25:19,527 autoreload 88 3696 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:25:20,324 autoreload 1580 5004 Watching for file changes with StatReloader
+ERROR 2024-07-20 19:25:33,512 log 1580 1968 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 29, in create_fake_bases
+    new_order.product.add(product, through_defaults={"count_product": Count(product=product, order=new_order).save_order()})
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py", line 37, in save_order
+    super(Order, self).save()
+    ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: super(type, obj): obj must be an instance or subtype of type
+ERROR 2024-07-20 19:25:33,529 basehttp 1580 1968 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 70768
+INFO 2024-07-20 19:26:10,260 autoreload 1580 5004 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:26:11,077 autoreload 8572 6432 Watching for file changes with StatReloader
+INFO 2024-07-20 19:26:40,095 basehttp 8572 8516 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 19:30:48,803 autoreload 8572 6432 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:30:49,659 autoreload 8416 9408 Watching for file changes with StatReloader
+INFO 2024-07-20 19:30:55,286 autoreload 8416 9408 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:30:56,203 autoreload 9868 11220 Watching for file changes with StatReloader
+INFO 2024-07-20 19:31:07,864 autoreload 9868 11220 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:31:08,999 autoreload 7640 5032 Watching for file changes with StatReloader
+INFO 2024-07-20 19:31:11,426 autoreload 7640 5032 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:31:12,184 autoreload 8416 1460 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:04,378 autoreload 8416 1460 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:05,362 autoreload 13196 10724 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:07,853 autoreload 13196 10724 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:08,808 autoreload 5564 10632 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:11,097 autoreload 5564 10632 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:12,078 autoreload 10208 6788 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:13,282 autoreload 10208 6788 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:14,099 autoreload 2432 8164 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:16,412 autoreload 2432 8164 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:17,366 autoreload 7840 10708 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:18,619 autoreload 7840 10708 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:19,444 autoreload 11944 10636 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:21,804 autoreload 11944 10636 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:32:22,584 autoreload 2552 4384 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:33,103 autoreload 2552 4384 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:32:34,067 autoreload 9980 12636 Watching for file changes with StatReloader
+INFO 2024-07-20 19:32:36,394 autoreload 9980 12636 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:32:37,106 autoreload 2924 8516 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:02,800 autoreload 2924 8516 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:03,613 autoreload 6216 7908 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:04,879 autoreload 6216 7908 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:05,591 autoreload 5980 6932 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:16,024 autoreload 5980 6932 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:16,775 autoreload 4412 8984 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:18,050 autoreload 4412 8984 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:19,067 autoreload 11408 13096 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:21,358 autoreload 11408 13096 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:22,229 autoreload 1436 4256 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:23,591 autoreload 1436 4256 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:24,401 autoreload 5564 7352 Watching for file changes with StatReloader
+INFO 2024-07-20 19:33:30,831 autoreload 5564 7352 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\models.py changed, reloading.
+INFO 2024-07-20 19:33:31,667 autoreload 6444 5772 Watching for file changes with StatReloader
+INFO 2024-07-20 19:34:00,483 autoreload 6444 5772 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:34:01,352 autoreload 5396 12572 Watching for file changes with StatReloader
+INFO 2024-07-20 19:34:11,551 basehttp 5396 5004 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 19:47:32,492 autoreload 5396 12572 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:47:33,626 autoreload 4256 1568 Watching for file changes with StatReloader
+INFO 2024-07-20 19:47:37,327 autoreload 4256 1568 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:47:38,267 autoreload 8972 14112 Watching for file changes with StatReloader
+INFO 2024-07-20 19:47:48,812 autoreload 8972 14112 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:47:49,629 autoreload 13872 13432 Watching for file changes with StatReloader
+INFO 2024-07-20 19:47:51,906 autoreload 13872 13432 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:47:52,835 autoreload 5396 6484 Watching for file changes with StatReloader
+INFO 2024-07-20 19:47:54,139 autoreload 5396 6484 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:47:56,527 autoreload 13752 7148 Watching for file changes with StatReloader
+INFO 2024-07-20 19:47:59,862 autoreload 13752 7148 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:01,053 autoreload 10632 476 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:07,642 autoreload 10632 476 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:08,726 autoreload 5128 4412 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:18,516 autoreload 5128 4412 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:19,337 autoreload 13380 4092 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:22,684 autoreload 13380 4092 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:23,542 autoreload 14332 13904 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:26,046 autoreload 14332 13904 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:27,066 autoreload 2096 8676 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:31,402 autoreload 2096 8676 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:32,404 autoreload 13520 10136 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:34,847 autoreload 13520 10136 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:36,443 autoreload 7388 10448 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:37,768 autoreload 7388 10448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:38,561 autoreload 13536 12820 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:56,160 autoreload 13536 12820 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:48:56,990 autoreload 4560 6328 Watching for file changes with StatReloader
+INFO 2024-07-20 19:48:59,264 autoreload 4560 6328 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:00,176 autoreload 3016 13448 Watching for file changes with StatReloader
+INFO 2024-07-20 19:49:01,398 autoreload 3016 13448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:02,199 autoreload 13952 1460 Watching for file changes with StatReloader
+INFO 2024-07-20 19:49:09,537 autoreload 13952 1460 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:10,395 autoreload 14012 2212 Watching for file changes with StatReloader
+INFO 2024-07-20 19:49:16,725 autoreload 14012 2212 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:17,514 autoreload 7420 7904 Watching for file changes with StatReloader
+INFO 2024-07-20 19:49:33,080 autoreload 7420 7904 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:33,846 autoreload 6280 7296 Watching for file changes with StatReloader
+INFO 2024-07-20 19:49:35,118 autoreload 6280 7296 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:35,963 autoreload 5716 2944 Watching for file changes with StatReloader
+INFO 2024-07-20 19:49:51,495 autoreload 5716 2944 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:49:52,331 autoreload 9008 14012 Watching for file changes with StatReloader
+INFO 2024-07-20 19:50:27,586 autoreload 9008 14012 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:50:28,364 autoreload 8972 1008 Watching for file changes with StatReloader
+INFO 2024-07-20 19:50:30,621 autoreload 8972 1008 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:50:31,357 autoreload 232 11352 Watching for file changes with StatReloader
+INFO 2024-07-20 19:50:33,848 autoreload 232 11352 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:50:34,790 autoreload 9864 11384 Watching for file changes with StatReloader
+INFO 2024-07-20 19:51:11,991 autoreload 9864 11384 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:51:12,796 autoreload 2780 7048 Watching for file changes with StatReloader
+INFO 2024-07-20 19:51:16,493 autoreload 2780 7048 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:51:17,423 autoreload 6544 11844 Watching for file changes with StatReloader
+INFO 2024-07-20 19:51:18,841 autoreload 6544 11844 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:51:19,881 autoreload 12272 13756 Watching for file changes with StatReloader
+INFO 2024-07-20 19:51:33,553 autoreload 12272 13756 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:51:34,366 autoreload 13588 11544 Watching for file changes with StatReloader
+INFO 2024-07-20 19:51:57,648 autoreload 13588 11544 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:51:58,433 autoreload 5768 5940 Watching for file changes with StatReloader
+INFO 2024-07-20 19:52:11,255 autoreload 5768 5940 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:52:12,032 autoreload 12480 12716 Watching for file changes with StatReloader
+INFO 2024-07-20 19:52:26,858 autoreload 12480 12716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:52:27,650 autoreload 2444 5460 Watching for file changes with StatReloader
+INFO 2024-07-20 19:52:50,584 autoreload 2444 5460 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:52:51,398 autoreload 4352 10448 Watching for file changes with StatReloader
+INFO 2024-07-20 19:52:54,679 autoreload 4352 10448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:52:55,504 autoreload 13488 13984 Watching for file changes with StatReloader
+INFO 2024-07-20 19:52:56,908 autoreload 13488 13984 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:52:57,832 autoreload 14244 5428 Watching for file changes with StatReloader
+INFO 2024-07-20 19:52:59,284 autoreload 14244 5428 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:53:00,384 autoreload 12636 14164 Watching for file changes with StatReloader
+INFO 2024-07-20 19:53:06,015 autoreload 12636 14164 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:53:06,800 autoreload 2368 13168 Watching for file changes with StatReloader
+INFO 2024-07-20 19:53:20,500 autoreload 2368 13168 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:53:21,272 autoreload 1404 11124 Watching for file changes with StatReloader
+INFO 2024-07-20 19:53:24,859 autoreload 1404 11124 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:53:25,751 autoreload 1232 6068 Watching for file changes with StatReloader
+INFO 2024-07-20 19:53:32,340 autoreload 1232 6068 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:53:33,216 autoreload 10672 10968 Watching for file changes with StatReloader
+INFO 2024-07-20 19:53:41,934 autoreload 10672 10968 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:53:42,800 autoreload 13384 13932 Watching for file changes with StatReloader
+ERROR 2024-07-20 19:54:56,491 log 13384 13552 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 29, in create_fake_bases
+    count_product = Count.objects.get(product=product, order=new_order)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+secondapp.models.Count.DoesNotExist: Count matching query does not exist.
+ERROR 2024-07-20 19:54:56,496 basehttp 13384 13552 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 77742
+INFO 2024-07-20 19:57:12,726 autoreload 13384 13932 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:57:13,583 autoreload 8912 10788 Watching for file changes with StatReloader
+INFO 2024-07-20 19:57:15,158 autoreload 8912 10788 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:57:15,924 autoreload 8184 12592 Watching for file changes with StatReloader
+INFO 2024-07-20 19:57:18,536 autoreload 8184 12592 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 19:57:19,290 autoreload 5988 1716 Watching for file changes with StatReloader
+ERROR 2024-07-20 19:58:53,506 log 5988 12776 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 31, in create_fake_bases
+    new_order.product.add(product, through_defaults={"count_product": count_product.count_product+1})
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'count_product'
+ERROR 2024-07-20 19:58:53,506 basehttp 5988 12776 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 67989
+INFO 2024-07-20 20:00:41,432 autoreload 5988 1716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:00:42,292 autoreload 5404 13520 Watching for file changes with StatReloader
+INFO 2024-07-20 20:00:43,623 autoreload 5404 13520 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:00:44,460 autoreload 11992 12908 Watching for file changes with StatReloader
+INFO 2024-07-20 20:00:46,039 autoreload 11992 12908 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:00:46,972 autoreload 6680 5716 Watching for file changes with StatReloader
+INFO 2024-07-20 20:00:48,439 autoreload 6680 5716 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:00:49,204 autoreload 8572 11516 Watching for file changes with StatReloader
+INFO 2024-07-20 20:00:56,909 basehttp 8572 2056 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 20:02:25,410 autoreload 8572 11516 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:02:26,273 autoreload 14004 8104 Watching for file changes with StatReloader
+INFO 2024-07-20 20:02:28,827 autoreload 14004 8104 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:02:29,688 autoreload 10636 5736 Watching for file changes with StatReloader
+INFO 2024-07-20 20:03:29,345 autoreload 8980 8556 Watching for file changes with StatReloader
+INFO 2024-07-20 20:30:56,506 basehttp 8980 11508 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 20:36:16,593 autoreload 8980 8556 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:36:17,651 autoreload 14128 6448 Watching for file changes with StatReloader
+INFO 2024-07-20 20:36:19,305 autoreload 14128 6448 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:36:20,151 autoreload 13580 13668 Watching for file changes with StatReloader
+INFO 2024-07-20 20:36:22,698 autoreload 13580 13668 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:36:23,667 autoreload 6680 12992 Watching for file changes with StatReloader
+INFO 2024-07-20 20:36:27,166 autoreload 6680 12992 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:36:27,932 autoreload 13612 13444 Watching for file changes with StatReloader
+INFO 2024-07-20 20:36:34,534 autoreload 13612 13444 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:36:35,333 autoreload 3140 6872 Watching for file changes with StatReloader
+INFO 2024-07-20 20:37:22,882 autoreload 3140 6872 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:37:23,649 autoreload 8912 12320 Watching for file changes with StatReloader
+INFO 2024-07-20 20:37:31,523 autoreload 8912 12320 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:37:32,297 autoreload 13508 2200 Watching for file changes with StatReloader
+INFO 2024-07-20 20:37:36,884 autoreload 13508 2200 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:37:37,610 autoreload 3804 13840 Watching for file changes with StatReloader
+INFO 2024-07-20 20:37:39,124 autoreload 3804 13840 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:37:39,835 autoreload 14048 13316 Watching for file changes with StatReloader
+INFO 2024-07-20 20:37:49,536 autoreload 14048 13316 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:37:50,283 autoreload 8572 10580 Watching for file changes with StatReloader
+INFO 2024-07-20 20:37:54,885 autoreload 8572 10580 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:37:55,633 autoreload 14160 13824 Watching for file changes with StatReloader
+INFO 2024-07-20 20:38:01,253 autoreload 14160 13824 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:38:02,229 autoreload 12908 13888 Watching for file changes with StatReloader
+INFO 2024-07-20 20:38:03,712 autoreload 12908 13888 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:38:04,519 autoreload 10228 13000 Watching for file changes with StatReloader
+INFO 2024-07-20 20:38:08,050 autoreload 10228 13000 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:38:08,822 autoreload 13628 8776 Watching for file changes with StatReloader
+INFO 2024-07-20 20:38:14,416 autoreload 13628 8776 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:38:15,152 autoreload 9512 7704 Watching for file changes with StatReloader
+INFO 2024-07-20 20:38:41,138 autoreload 9512 7704 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:38:41,863 autoreload 2920 11760 Watching for file changes with StatReloader
+INFO 2024-07-20 20:38:46,454 autoreload 2920 11760 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:38:47,229 autoreload 13972 10992 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:36,842 autoreload 13972 10992 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:37,713 autoreload 8180 9472 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:39,214 autoreload 8180 9472 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:39,985 autoreload 10116 10168 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:44,298 autoreload 10116 10168 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:45,199 autoreload 5912 14020 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:46,759 autoreload 5912 14020 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:47,573 autoreload 14136 13340 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:50,191 autoreload 14136 13340 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:50,988 autoreload 10556 13676 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:53,465 autoreload 10556 13676 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:54,444 autoreload 11168 8948 Watching for file changes with StatReloader
+INFO 2024-07-20 20:39:57,939 autoreload 11168 8948 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:39:58,712 autoreload 12940 14244 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:01,210 autoreload 12940 14244 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:02,048 autoreload 6352 13696 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:08,719 autoreload 6352 13696 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:09,600 autoreload 13744 1368 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:13,229 autoreload 13744 1368 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:14,144 autoreload 11316 14040 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:15,606 autoreload 11316 14040 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:16,520 autoreload 8824 4308 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:18,014 autoreload 8824 4308 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:18,796 autoreload 3908 13784 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:20,339 autoreload 3908 13784 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:21,229 autoreload 11472 8016 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:23,629 autoreload 11472 8016 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:24,449 autoreload 6324 13628 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:25,954 autoreload 6324 13628 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:26,775 autoreload 9212 3140 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:28,288 autoreload 9212 3140 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:29,281 autoreload 11496 11576 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:31,857 autoreload 11496 11576 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:32,622 autoreload 14160 14068 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:47,621 autoreload 14160 14068 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:48,536 autoreload 4308 13536 Watching for file changes with StatReloader
+INFO 2024-07-20 20:40:49,998 autoreload 4308 13536 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:40:50,765 autoreload 14220 2212 Watching for file changes with StatReloader
+INFO 2024-07-20 20:41:13,891 autoreload 14220 2212 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\urls.py changed, reloading.
+INFO 2024-07-20 20:41:14,769 autoreload 4352 5468 Watching for file changes with StatReloader
+INFO 2024-07-20 20:41:20,402 autoreload 4352 5468 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\urls.py changed, reloading.
+INFO 2024-07-20 20:41:21,308 autoreload 13420 8912 Watching for file changes with StatReloader
+INFO 2024-07-20 20:41:23,913 autoreload 13420 8912 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\urls.py changed, reloading.
+INFO 2024-07-20 20:41:24,822 autoreload 2200 14092 Watching for file changes with StatReloader
+INFO 2024-07-20 20:41:29,340 autoreload 2200 14092 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\urls.py changed, reloading.
+INFO 2024-07-20 20:41:30,193 autoreload 11020 13280 Watching for file changes with StatReloader
+INFO 2024-07-20 20:41:35,782 autoreload 11020 13280 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\urls.py changed, reloading.
+INFO 2024-07-20 20:41:36,513 autoreload 2760 10780 Watching for file changes with StatReloader
+INFO 2024-07-20 20:41:56,024 basehttp 2760 14020 "GET /magazin/delete_all HTTP/1.1" 301 0
+INFO 2024-07-20 20:41:56,056 basehttp 2760 10828 "GET /magazin/delete_all/ HTTP/1.1" 200 39
+ERROR 2024-07-20 20:42:35,725 log 2760 10828 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 22, in create_fake_bases
+    new_order = Order(client = Client.objects.get(id=random.randint(1, 10)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+secondapp.models.Client.DoesNotExist: Client matching query does not exist.
+ERROR 2024-07-20 20:42:35,731 basehttp 2760 10828 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 76120
+INFO 2024-07-20 20:43:33,432 basehttp 2760 10828 "GET /magazin/delete_all/ HTTP/1.1" 200 39
+ERROR 2024-07-20 20:43:57,983 log 2760 10828 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 22, in create_fake_bases
+    new_order = Order(client = Client.objects.get(id=random.randint(1, 10)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+secondapp.models.Client.DoesNotExist: Client matching query does not exist.
+ERROR 2024-07-20 20:43:57,986 basehttp 2760 10828 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 76120
+INFO 2024-07-20 20:47:51,369 autoreload 13184 14232 Watching for file changes with StatReloader
+INFO 2024-07-20 20:48:05,787 basehttp 13184 1868 "GET /magazin/delete_all/ HTTP/1.1" 200 39
+INFO 2024-07-20 20:52:14,137 autoreload 3836 13876 Watching for file changes with StatReloader
+ERROR 2024-07-20 20:52:26,576 log 3836 13640 Internal Server Error: /magazin/create_fake_bases/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py", line 22, in create_fake_bases
+    new_order = Order(client = Client.objects.get(id=random.randint(1, 10)))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+secondapp.models.Client.DoesNotExist: Client matching query does not exist.
+ERROR 2024-07-20 20:52:26,581 basehttp 3836 13640 "GET /magazin/create_fake_bases/ HTTP/1.1" 500 76120
+INFO 2024-07-20 20:53:06,991 autoreload 12936 284 Watching for file changes with StatReloader
+INFO 2024-07-20 20:53:21,266 basehttp 12936 4332 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 20:58:36,635 autoreload 12936 284 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:58:37,432 autoreload 13876 13960 Watching for file changes with StatReloader
+INFO 2024-07-20 20:58:39,735 autoreload 13876 13960 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:58:40,486 autoreload 6636 14248 Watching for file changes with StatReloader
+INFO 2024-07-20 20:58:46,057 autoreload 6636 14248 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 20:58:46,782 autoreload 8516 13908 Watching for file changes with StatReloader
+INFO 2024-07-20 20:59:10,041 basehttp 8516 14140 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 21:00:25,977 autoreload 14232 9724 Watching for file changes with StatReloader
+INFO 2024-07-20 21:00:32,511 basehttp 14232 5068 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 21:03:31,805 autoreload 11236 12104 Watching for file changes with StatReloader
+INFO 2024-07-20 21:03:40,376 basehttp 11236 14196 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-20 21:05:22,299 autoreload 11236 12104 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 21:05:23,170 autoreload 14040 13188 Watching for file changes with StatReloader
+INFO 2024-07-20 21:05:24,684 autoreload 14040 13188 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 21:05:25,574 autoreload 12992 13932 Watching for file changes with StatReloader
+INFO 2024-07-20 21:05:34,338 autoreload 12992 13932 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 21:05:35,474 autoreload 5396 12488 Watching for file changes with StatReloader
+INFO 2024-07-20 21:05:43,156 autoreload 5396 12488 D:\LESSONS\PYTHON\Django\DZ\Task1\secondapp\views.py changed, reloading.
+INFO 2024-07-20 21:05:43,891 autoreload 5948 9548 Watching for file changes with StatReloader
