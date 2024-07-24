@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+добавление клиента
+{% endblock %}
+
+{% block content %}
+
+<h3>Добавить нового клиента:</h3>
+<form method="POST" action="/register_client/">
+    {% csrf_token %}
+    <p><label for="name">Name:</label>
+    <input type="text" id="name" name="name" required></p>
+    <p><label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required></p>
+    <p><label for="phonenumber">Phonenumber:</label>
+    <input type="tel" id="phonenumber" name="phonenumber" required></p>
+    <p><label for="adress">Adress:</label>
+    <input type="text" id="adress" name="adress" required></p>
+    <button class="form_auth_button" type="submit" name="save_client">Записать</button>
+</form>
+</p>
+{% endblock %}

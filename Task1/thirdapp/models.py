@@ -16,7 +16,7 @@ class Product(models.Model):
     quantity = models.DecimalField(max_digits=8, decimal_places=2)
     date_addition = models.DateTimeField(auto_now_add=True)
     def __str__(self):
-        return f'Product is {self.name} (price = {self.price})'
+        return f'Product is {self.name} (price = {self.price}, remains = {self.quantity})'
 
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
@@ -25,7 +25,10 @@ class Order(models.Model):
     date_ordered = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f'Order is {self.id}'
+        itog_str = ""
+        for i in self.product.all():
+            itog_str = itog_str+ i.__str__() + '\n'
+        return f'Order is {self.id} for the amount of {self.total_price}\n{itog_str}'
     
 class Count(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
@@ -34,7 +37,6 @@ class Count(models.Model):
     
     def save_order(self):
        self.count_product += 1
-       #super(Order, self).save()
        return self.count_product
     
     def __str__(self):

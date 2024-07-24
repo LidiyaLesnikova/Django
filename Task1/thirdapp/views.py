@@ -1,10 +1,55 @@
 import random
+import datetime
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render
 from .models import Client, Product, Order, Count
 
 def index(request):
-    return HttpResponse('Интернет-магазин')
+    return render(request, 'base.html')
+
+def read_clients(request):
+    list_clients = Client.objects.all()
+    context = {'list_clients': list_clients}
+    return render(request, 'thirdapp/clients.html', context)
+
+def read_products(request):
+    if request.method == 'POST':
+        days_report=request.POST.get('days_report')
+        client_id=request.POST['client_id']
+        start_data_report = datetime.datetime.today() - datetime.timedelta(days=int(days_report))
+        select_order = Order.objects.filter(
+            client = client_id,
+            date_ordered__gte=start_data_report,
+            date_ordered__lt=datetime.datetime.today())
+        list_products = set()
+        for products in select_order:
+            for product in products.product.all():
+                list_products.add(product)
+        print_client = f" клиента {Client.objects.filter(id=client_id).first().name}"
+    else:
+        list_products = Product.objects.all()
+        print_client = ""
+    context = {'list_products': list_products, 'print_client': print_client}
+    return render(request, 'thirdapp/products.html', context)
+
+def read_orders(request):
+    list_orders = Order.objects.all()
+    context = {'list_orders': list_orders}
+    return render(request, 'thirdapp/orders.html', context)
+
+def create_client(request):
+    if request.method == 'POST':
+        return  render(request, 'thirdapp/client.html')
+
+def register_client(request):
+    if request.method == 'POST':
+        new_client = Client(name=request.POST['name'], 
+                            email=request.POST['email'], 
+                            phonenumber=request.POST['phonenumber'],
+                            adress=request.POST['adress'])
+        new_client.save()
+    return HttpResponseRedirect('/clients/')
 
 def create_fake_bases(request):
     for i in range(10):
@@ -40,9 +85,6 @@ def create_fake_bases(request):
         new_order.save()
 
     return HttpResponse('База заполнена')
-
-def read(request):
-    return HttpResponse('Чтение записей интернет-магазина')
 
 def update(request):
     return HttpResponse('Обновление записей интернет-магазина')

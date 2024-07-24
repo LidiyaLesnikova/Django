@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://*.proghunter.ru']
 # Application definition
 
 INSTALLED_APPS = [
@@ -57,7 +57,9 @@ ROOT_URLCONF = 'Task1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
