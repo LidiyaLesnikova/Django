@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'firstapp',
     'secondapp',
-    'thirdapp'
+    'thirdapp',
+    'fourthapp'
 ]
 
 MIDDLEWARE = [
@@ -162,3 +163,6 @@ LOGGING = {
             },
         },
 }
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'

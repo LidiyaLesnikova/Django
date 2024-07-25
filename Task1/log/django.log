@@ -3903,3 +3903,1420 @@ INFO 2024-07-24 03:08:13,522 autoreload 1448 7416 D:\LESSONS\PYTHON\Django\DZ\Ta
 INFO 2024-07-24 03:08:14,554 autoreload 10928 13288 Watching for file changes with StatReloader
 INFO 2024-07-24 03:08:17,121 autoreload 10928 13288 D:\LESSONS\PYTHON\Django\DZ\Task1\thirdapp\views.py changed, reloading.
 INFO 2024-07-24 03:08:17,967 autoreload 5604 12340 Watching for file changes with StatReloader
+INFO 2024-07-24 03:17:22,644 autoreload 14100 4696 Watching for file changes with StatReloader
+INFO 2024-07-24 03:17:31,831 basehttp 14100 13796 "GET / HTTP/1.1" 200 502
+INFO 2024-07-24 03:17:32,486 basehttp 14100 13796 "GET / HTTP/1.1" 200 502
+INFO 2024-07-24 03:17:34,181 basehttp 14100 13796 "GET /clients/ HTTP/1.1" 200 1461
+INFO 2024-07-24 03:17:36,651 basehttp 14100 13796 "GET /products/ HTTP/1.1" 200 682
+INFO 2024-07-24 03:17:37,207 basehttp 14100 13796 "GET /orders/ HTTP/1.1" 200 680
+INFO 2024-07-24 03:17:37,959 basehttp 14100 13796 "GET /clients/ HTTP/1.1" 200 1461
+INFO 2024-07-24 03:18:06,826 basehttp 14100 13796 "GET /magazin3 HTTP/1.1" 301 0
+INFO 2024-07-24 03:18:06,834 basehttp 14100 13856 "GET /magazin3/ HTTP/1.1" 200 502
+INFO 2024-07-24 03:18:18,943 basehttp 14100 13856 "GET /magazin3/create_fake_bases/ HTTP/1.1" 200 27
+WARNING 2024-07-24 03:18:27,917 log 14100 13856 Not Found: /magazin3/s/
+WARNING 2024-07-24 03:18:27,919 basehttp 14100 13856 "GET /magazin3/s/ HTTP/1.1" 404 5939
+INFO 2024-07-24 03:18:33,062 basehttp 14100 13856 "GET /magazin3/ HTTP/1.1" 200 502
+INFO 2024-07-24 03:18:34,536 basehttp 14100 13856 "GET /clients/ HTTP/1.1" 200 1461
+INFO 2024-07-24 03:18:36,641 basehttp 14100 13856 "GET /products/ HTTP/1.1" 200 682
+INFO 2024-07-24 03:18:37,555 basehttp 14100 13856 "GET /orders/ HTTP/1.1" 200 680
+INFO 2024-07-24 03:19:37,276 basehttp 14100 13856 "GET /magazin/ HTTP/1.1" 200 31
+INFO 2024-07-24 03:19:51,395 basehttp 14100 13856 "GET /magazin/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-24 03:20:22,690 basehttp 14100 13856 "GET /magazin4/create_fake_bases/ HTTP/1.1" 200 27
+INFO 2024-07-24 03:20:59,540 basehttp 14100 13856 "GET /magazin4 HTTP/1.1" 301 0
+INFO 2024-07-24 03:20:59,547 basehttp 14100 4108 "GET /magazin4/ HTTP/1.1" 200 502
+INFO 2024-07-24 03:21:01,343 basehttp 14100 4108 "GET /clients/ HTTP/1.1" 200 4254
+INFO 2024-07-24 03:21:04,767 basehttp 14100 4108 "GET /products/ HTTP/1.1" 200 1624
+INFO 2024-07-24 03:21:06,289 basehttp 14100 4108 "GET /orders/ HTTP/1.1" 200 6113
+INFO 2024-07-24 03:21:08,273 basehttp 14100 4108 "GET /clients/ HTTP/1.1" 200 4254
+ERROR 2024-07-24 03:21:12,356 log 14100 4108 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'client_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 19, in read_products
+    client_id=request.POST['client_id']
+              ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'client_id'
+ERROR 2024-07-24 03:21:12,359 basehttp 14100 4108 "POST /products/ HTTP/1.1" 500 76184
+INFO 2024-07-24 03:21:17,799 basehttp 14100 4108 "POST /products/ HTTP/1.1" 200 1365
+INFO 2024-07-24 03:21:29,980 basehttp 14100 4108 "POST /clients/create_client/ HTTP/1.1" 200 1275
+INFO 2024-07-24 03:21:33,663 basehttp 14100 4108 "GET /orders/ HTTP/1.1" 200 6113
+INFO 2024-07-24 03:21:34,460 basehttp 14100 4108 "GET /clients/ HTTP/1.1" 200 4254
+INFO 2024-07-24 03:24:53,360 autoreload 14100 4696 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:24:54,223 autoreload 7404 12952 Watching for file changes with StatReloader
+INFO 2024-07-24 03:24:57,844 autoreload 7404 12952 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:24:58,850 autoreload 14136 3988 Watching for file changes with StatReloader
+INFO 2024-07-24 03:25:03,190 autoreload 14136 3988 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:25:03,990 autoreload 5932 2792 Watching for file changes with StatReloader
+INFO 2024-07-24 03:25:05,348 autoreload 5932 2792 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:25:06,040 autoreload 4260 13036 Watching for file changes with StatReloader
+INFO 2024-07-24 03:25:12,462 autoreload 4260 13036 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:25:13,267 autoreload 4508 10200 Watching for file changes with StatReloader
+INFO 2024-07-24 03:25:18,645 autoreload 4508 10200 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:25:19,411 autoreload 2848 4168 Watching for file changes with StatReloader
+INFO 2024-07-24 03:25:21,952 autoreload 2848 4168 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 03:25:22,677 autoreload 12340 1528 Watching for file changes with StatReloader
+INFO 2024-07-24 21:25:00,026 autoreload 4488 5716 Watching for file changes with StatReloader
+INFO 2024-07-24 21:25:58,130 autoreload 4488 5716 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 21:25:59,183 autoreload 11072 6120 Watching for file changes with StatReloader
+INFO 2024-07-24 21:26:20,299 autoreload 11072 6120 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\urls.py changed, reloading.
+INFO 2024-07-24 21:26:21,158 autoreload 11828 1336 Watching for file changes with StatReloader
+INFO 2024-07-24 21:27:02,693 basehttp 11828 7496 "GET / HTTP/1.1" 200 502
+INFO 2024-07-24 21:27:04,992 basehttp 11828 7496 "GET /clients/ HTTP/1.1" 200 4254
+ERROR 2024-07-24 21:27:08,353 log 11828 7496 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: fourthapp_product.foto
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 35, in read_products
+    return render(request, 'fourthapp/products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: fourthapp_product.foto
+ERROR 2024-07-24 21:27:08,370 basehttp 11828 7496 "GET /products/ HTTP/1.1" 500 197517
+ERROR 2024-07-24 21:27:16,603 log 11828 7496 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: fourthapp_product.foto
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 40, in read_orders
+    return render(request, 'fourthapp/orders.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py", line 30, in __str__
+    for i in self.product.all():
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: fourthapp_product.foto
+ERROR 2024-07-24 21:27:16,626 basehttp 11828 7496 "GET /orders/ HTTP/1.1" 500 216916
+INFO 2024-07-24 21:27:24,132 basehttp 11828 7496 "GET /clients/ HTTP/1.1" 200 4254
+ERROR 2024-07-24 21:27:29,339 log 11828 7496 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'client_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 20, in read_products
+    client_id=request.POST['client_id']
+              ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'client_id'
+ERROR 2024-07-24 21:27:29,344 basehttp 11828 7496 "POST /products/ HTTP/1.1" 500 76189
+ERROR 2024-07-24 21:27:32,274 log 11828 7496 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:27:32,278 basehttp 11828 7496 "POST /clients/create_client/ HTTP/1.1" 500 68440
+INFO 2024-07-24 21:29:42,805 autoreload 11828 1336 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:29:44,160 autoreload 3060 9180 Watching for file changes with StatReloader
+INFO 2024-07-24 21:29:48,865 autoreload 3060 9180 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:29:50,115 autoreload 3756 10500 Watching for file changes with StatReloader
+INFO 2024-07-24 21:29:51,683 autoreload 3756 10500 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:29:52,734 autoreload 2516 5000 Watching for file changes with StatReloader
+INFO 2024-07-24 21:29:58,698 basehttp 2516 6068 "GET /clients/ HTTP/1.1" 200 4254
+ERROR 2024-07-24 21:30:00,190 log 2516 6068 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:30:00,190 basehttp 2516 6068 "POST /clients/create_client/ HTTP/1.1" 500 68440
+INFO 2024-07-24 21:30:16,822 autoreload 2516 5000 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:30:18,010 autoreload 13676 12624 Watching for file changes with StatReloader
+INFO 2024-07-24 21:30:21,524 autoreload 13676 12624 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:30:22,539 autoreload 12416 1528 Watching for file changes with StatReloader
+INFO 2024-07-24 21:30:23,581 basehttp 12416 9960 "GET /clients/ HTTP/1.1" 200 4254
+ERROR 2024-07-24 21:30:24,880 log 12416 9960 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:30:24,880 basehttp 12416 9960 "POST /clients/create_client/ HTTP/1.1" 500 68440
+INFO 2024-07-24 21:31:30,628 autoreload 7160 7052 Watching for file changes with StatReloader
+WARNING 2024-07-24 21:31:37,877 log 7160 13548 Not Found: /c
+WARNING 2024-07-24 21:31:37,878 basehttp 7160 13548 "GET /c HTTP/1.1" 404 4146
+WARNING 2024-07-24 21:31:41,952 log 7160 13548 Not Found: /c
+WARNING 2024-07-24 21:31:41,953 basehttp 7160 13548 "GET /c HTTP/1.1" 404 4146
+INFO 2024-07-24 21:31:44,339 basehttp 7160 13548 "GET / HTTP/1.1" 200 502
+INFO 2024-07-24 21:31:51,751 basehttp 7160 13548 "GET /clients/ HTTP/1.1" 200 4254
+ERROR 2024-07-24 21:31:53,087 log 7160 13548 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:31:53,087 basehttp 7160 13548 "POST /clients/create_client/ HTTP/1.1" 500 68440
+INFO 2024-07-24 21:33:10,125 autoreload 7160 7052 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:33:11,153 autoreload 5764 13784 Watching for file changes with StatReloader
+INFO 2024-07-24 21:33:13,868 autoreload 5764 13784 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:33:15,030 autoreload 6308 8416 Watching for file changes with StatReloader
+INFO 2024-07-24 21:33:16,713 autoreload 6308 8416 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:33:18,086 autoreload 2192 7496 Watching for file changes with StatReloader
+ERROR 2024-07-24 21:33:19,245 log 2192 10388 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:33:19,248 basehttp 2192 10388 "POST /clients/create_client/ HTTP/1.1" 500 68440
+INFO 2024-07-24 21:34:28,511 autoreload 2192 7496 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:34:30,789 autoreload 9964 12152 Watching for file changes with StatReloader
+ERROR 2024-07-24 21:34:33,334 log 9964 10100 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:34:33,342 basehttp 9964 10100 "POST /clients/create_client/ HTTP/1.1" 500 68440
+ERROR 2024-07-24 21:37:07,046 log 9964 10100 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view fourthapp.views.create_client didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-07-24 21:37:07,046 basehttp 9964 10100 "POST /clients/create_client/ HTTP/1.1" 500 68440
+INFO 2024-07-24 21:37:16,050 basehttp 9964 10100 "GET /clients/ HTTP/1.1" 200 4253
+ERROR 2024-07-24 21:37:18,046 log 9964 10100 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 57, in create_client
+    return  render(request, 'fourthapp/client.html', {'form': form, 'title':'¬вод данных клиента'})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fourthapp/client.html
+ERROR 2024-07-24 21:37:18,054 basehttp 9964 10100 "GET /clients/create_client/?csrfmiddlewaretoken=lF6F2p62HdOHBBsDHgrSvLbU4GGJzMfzzW5j1sSXFnTmPlhM0Izr3TF0gH4nU9nn&create_client= HTTP/1.1" 500 84686
+INFO 2024-07-24 21:37:50,073 autoreload 9568 8472 Watching for file changes with StatReloader
+INFO 2024-07-24 21:37:54,070 basehttp 9568 2636 "GET /clients/ HTTP/1.1" 200 4253
+ERROR 2024-07-24 21:37:55,358 log 9568 2636 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 57, in create_client
+    return  render(request, 'fourthapp/client.html', {'form': form, 'title':'¬вод данных клиента'})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fourthapp/client.html
+ERROR 2024-07-24 21:37:55,377 basehttp 9568 2636 "GET /clients/create_client/?csrfmiddlewaretoken=B8v0hZC6hunv3xTBIlsV0mhPGmroLp77PpuEg2o1fEsahhIK1NAuyuLVSnP26MfV&create_client= HTTP/1.1" 500 84686
+INFO 2024-07-24 21:38:26,183 autoreload 9568 8472 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:38:27,241 autoreload 7404 4188 Watching for file changes with StatReloader
+INFO 2024-07-24 21:38:32,082 autoreload 7404 4188 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:38:32,941 autoreload 9260 9156 Watching for file changes with StatReloader
+INFO 2024-07-24 21:38:46,958 autoreload 9260 9156 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:38:47,859 autoreload 12320 4988 Watching for file changes with StatReloader
+INFO 2024-07-24 21:39:06,741 basehttp 12320 8300 "GET /clients/ HTTP/1.1" 200 4253
+ERROR 2024-07-24 21:39:08,056 log 12320 8300 Internal Server Error: /clients/create_client/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 54, in create_client
+    return  render(request, 'fourthapp/client.html', {'form': form, 'title':'¬вод данных клиента'})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fourthapp/client.html
+ERROR 2024-07-24 21:39:08,063 basehttp 12320 8300 "GET /clients/create_client/?csrfmiddlewaretoken=IydHXEgkJeyAiiEfkLyWmQu7zwWXNcXOWPclWH2fHoDfw2toDdGvUYYdLxkB8z5C&create_client= HTTP/1.1" 500 84766
+INFO 2024-07-24 21:39:58,921 autoreload 12320 4988 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:39:59,741 autoreload 5196 9568 Watching for file changes with StatReloader
+INFO 2024-07-24 21:40:11,768 autoreload 5196 9568 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:40:12,858 autoreload 12104 4988 Watching for file changes with StatReloader
+INFO 2024-07-24 21:40:17,819 basehttp 12104 9320 "GET /clients/ HTTP/1.1" 200 4253
+INFO 2024-07-24 21:40:18,641 basehttp 12104 9320 "GET /clients/create_client/?csrfmiddlewaretoken=fyckl0wPM2tps4t8SNnpvwogfgTvoucptPbYk3iKKcy4GOihbfvY3ESmrhh9JRkd&create_client= HTTP/1.1" 200 1358
+INFO 2024-07-24 21:40:57,756 basehttp 12104 9320 "POST /clients/create_client/?csrfmiddlewaretoken=fyckl0wPM2tps4t8SNnpvwogfgTvoucptPbYk3iKKcy4GOihbfvY3ESmrhh9JRkd&create_client= HTTP/1.1" 302 0
+INFO 2024-07-24 21:40:57,776 basehttp 12104 9320 "GET /clients/ HTTP/1.1" 200 4548
+ERROR 2024-07-24 21:42:16,713 log 12104 9320 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: fourthapp_product.foto
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 35, in read_products
+    return render(request, 'fourthapp/products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: fourthapp_product.foto
+ERROR 2024-07-24 21:42:16,743 basehttp 12104 9320 "GET /products/ HTTP/1.1" 500 198144
+INFO 2024-07-24 21:42:47,981 autoreload 12104 4988 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\urls.py changed, reloading.
+INFO 2024-07-24 21:42:48,978 autoreload 6384 12928 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:04,295 autoreload 6384 12928 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\urls.py changed, reloading.
+INFO 2024-07-24 21:43:05,244 autoreload 10604 740 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:16,194 autoreload 10604 740 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:17,159 autoreload 12864 12240 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:29,083 autoreload 12864 12240 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:29,944 autoreload 4028 13892 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:33,658 autoreload 4028 13892 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:34,591 autoreload 12640 4388 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:38,173 autoreload 12640 4388 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:39,038 autoreload 944 9168 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:43,677 autoreload 944 9168 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:44,576 autoreload 12732 11980 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:47,245 autoreload 12732 11980 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:48,145 autoreload 7028 13792 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:55,913 autoreload 7028 13792 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:56,962 autoreload 9964 2728 Watching for file changes with StatReloader
+INFO 2024-07-24 21:43:58,610 autoreload 9964 2728 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:43:59,455 autoreload 2148 2920 Watching for file changes with StatReloader
+INFO 2024-07-24 21:44:01,209 autoreload 2148 2920 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:44:02,112 autoreload 5936 11232 Watching for file changes with StatReloader
+INFO 2024-07-24 21:44:09,814 autoreload 5936 11232 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:44:10,594 autoreload 9644 2872 Watching for file changes with StatReloader
+INFO 2024-07-24 21:44:22,413 autoreload 9644 2872 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:44:23,327 autoreload 10244 10840 Watching for file changes with StatReloader
+INFO 2024-07-24 21:44:29,056 autoreload 10244 10840 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:44:29,986 autoreload 13932 3168 Watching for file changes with StatReloader
+INFO 2024-07-24 21:45:45,923 autoreload 13932 3168 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\urls.py changed, reloading.
+INFO 2024-07-24 21:45:46,698 autoreload 11232 13092 Watching for file changes with StatReloader
+ERROR 2024-07-24 21:45:55,819 log 11232 3612 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: fourthapp_product.foto
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 35, in read_products
+    return render(request, 'fourthapp/products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: fourthapp_product.foto
+ERROR 2024-07-24 21:45:55,837 basehttp 11232 3612 "GET /products/ HTTP/1.1" 500 198144
+INFO 2024-07-24 21:46:28,565 autoreload 11232 13092 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:46:31,213 autoreload 6636 2852 Watching for file changes with StatReloader
+INFO 2024-07-24 21:46:34,019 autoreload 6636 2852 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:46:35,002 autoreload 4696 12660 Watching for file changes with StatReloader
+INFO 2024-07-24 21:46:38,920 autoreload 4696 12660 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:46:40,155 autoreload 12868 13600 Watching for file changes with StatReloader
+INFO 2024-07-24 21:46:45,915 autoreload 12868 13600 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:46:46,815 autoreload 10972 4192 Watching for file changes with StatReloader
+INFO 2024-07-24 21:46:51,419 autoreload 10972 4192 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:46:52,492 autoreload 4908 12612 Watching for file changes with StatReloader
+INFO 2024-07-24 21:47:02,260 autoreload 4908 12612 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:47:03,094 autoreload 8180 10844 Watching for file changes with StatReloader
+INFO 2024-07-24 21:47:11,647 autoreload 8180 10844 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:47:12,388 autoreload 10788 12320 Watching for file changes with StatReloader
+INFO 2024-07-24 21:47:17,136 autoreload 10788 12320 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:47:18,065 autoreload 2000 14184 Watching for file changes with StatReloader
+INFO 2024-07-24 21:47:19,715 autoreload 2000 14184 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:47:20,769 autoreload 8464 12104 Watching for file changes with StatReloader
+INFO 2024-07-24 21:47:22,464 autoreload 8464 12104 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 21:47:23,380 autoreload 13560 10732 Watching for file changes with StatReloader
+INFO 2024-07-24 21:57:37,829 basehttp 13560 8324 "GET /clients/ HTTP/1.1" 200 4548
+INFO 2024-07-24 21:57:38,918 basehttp 13560 8324 "GET /clients/create_client/?csrfmiddlewaretoken=R5ZYD6O2WKp5mfVt3ooS676lpxoQO4Rz5mYCC9AXUUuKAZKCmQwrEfArByMu9rZn&create_client= HTTP/1.1" 200 1383
+INFO 2024-07-24 22:07:05,255 autoreload 13560 10732 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:07:06,241 autoreload 12824 9144 Watching for file changes with StatReloader
+INFO 2024-07-24 22:07:08,917 autoreload 12824 9144 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:07:09,724 autoreload 8324 13856 Watching for file changes with StatReloader
+INFO 2024-07-24 22:07:28,675 autoreload 8324 13856 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:07:29,741 autoreload 12576 6588 Watching for file changes with StatReloader
+INFO 2024-07-24 22:07:32,419 autoreload 12576 6588 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:07:33,287 autoreload 7572 9456 Watching for file changes with StatReloader
+INFO 2024-07-24 22:07:40,715 basehttp 7572 4528 "GET /clients/create_client/?csrfmiddlewaretoken=R5ZYD6O2WKp5mfVt3ooS676lpxoQO4Rz5mYCC9AXUUuKAZKCmQwrEfArByMu9rZn&create_client= HTTP/1.1" 200 1427
+ERROR 2024-07-24 22:12:26,336 log 7572 4528 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: fourthapp_product.foto
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 35, in read_products
+    return render(request, 'fourthapp/products.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: fourthapp_product.foto
+ERROR 2024-07-24 22:12:26,354 basehttp 7572 4528 "GET /products/ HTTP/1.1" 500 198262
+ERROR 2024-07-24 22:12:34,166 log 7572 4528 Internal Server Error: /orders/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: fourthapp_product.foto
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 40, in read_orders
+    return render(request, 'fourthapp/orders.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py", line 30, in __str__
+    for i in self.product.all():
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: fourthapp_product.foto
+ERROR 2024-07-24 22:12:34,182 basehttp 7572 4528 "GET /orders/ HTTP/1.1" 500 217034
+INFO 2024-07-24 22:12:37,105 basehttp 7572 4528 "GET /clients/ HTTP/1.1" 200 4548
+INFO 2024-07-24 22:14:26,687 basehttp 7572 4528 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-24 22:15:38,718 basehttp 7572 4528 "GET /clients/create_client/?csrfmiddlewaretoken=oYjec3uuE0ripeKyBjtdoTXefmBxG5WUCfiSb6gpCawXDYzHULBMW1rkrnZb1s4I&create_client= HTTP/1.1" 200 1427
+INFO 2024-07-24 22:16:16,844 autoreload 7572 9456 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 22:16:17,858 autoreload 12004 4336 Watching for file changes with StatReloader
+INFO 2024-07-24 22:16:19,386 autoreload 12004 4336 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 22:16:20,168 autoreload 7404 12240 Watching for file changes with StatReloader
+INFO 2024-07-24 22:16:51,678 autoreload 7404 12240 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:16:52,703 autoreload 4312 12024 Watching for file changes with StatReloader
+INFO 2024-07-24 22:16:57,453 autoreload 4312 12024 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:16:58,235 autoreload 3552 6784 Watching for file changes with StatReloader
+INFO 2024-07-24 22:17:25,439 autoreload 3552 6784 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:17:26,387 autoreload 12868 12184 Watching for file changes with StatReloader
+INFO 2024-07-24 22:18:53,172 autoreload 12868 12184 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:18:54,072 autoreload 4424 5908 Watching for file changes with StatReloader
+INFO 2024-07-24 22:20:20,090 basehttp 4424 2640 "GET /clients/create_client/?csrfmiddlewaretoken=oYjec3uuE0ripeKyBjtdoTXefmBxG5WUCfiSb6gpCawXDYzHULBMW1rkrnZb1s4I&create_client= HTTP/1.1" 200 1431
+INFO 2024-07-24 22:23:37,858 autoreload 4424 5908 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 22:23:38,755 autoreload 7592 4296 Watching for file changes with StatReloader
+INFO 2024-07-24 22:23:44,135 autoreload 7592 4296 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 22:23:45,560 autoreload 8772 8144 Watching for file changes with StatReloader
+INFO 2024-07-24 22:23:49,207 autoreload 8772 8144 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:23:50,108 autoreload 5908 4424 Watching for file changes with StatReloader
+INFO 2024-07-24 22:23:53,666 autoreload 5908 4424 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:23:54,458 autoreload 6308 10784 Watching for file changes with StatReloader
+INFO 2024-07-24 22:23:58,093 autoreload 6308 10784 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:23:58,922 autoreload 9856 12764 Watching for file changes with StatReloader
+INFO 2024-07-24 22:24:01,461 autoreload 9856 12764 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:24:02,271 autoreload 9696 2376 Watching for file changes with StatReloader
+INFO 2024-07-24 22:24:03,808 autoreload 9696 2376 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:24:04,642 autoreload 7048 5656 Watching for file changes with StatReloader
+INFO 2024-07-24 22:24:22,829 autoreload 7048 5656 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:24:23,744 autoreload 7604 14128 Watching for file changes with StatReloader
+INFO 2024-07-24 22:24:25,238 autoreload 7604 14128 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:24:26,203 autoreload 12624 7200 Watching for file changes with StatReloader
+INFO 2024-07-24 22:24:27,700 autoreload 12624 7200 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:24:28,593 autoreload 6936 4248 Watching for file changes with StatReloader
+INFO 2024-07-24 22:24:56,669 basehttp 6936 13860 "GET /clients/create_client/?csrfmiddlewaretoken=oYjec3uuE0ripeKyBjtdoTXefmBxG5WUCfiSb6gpCawXDYzHULBMW1rkrnZb1s4I&create_client= HTTP/1.1" 200 1561
+INFO 2024-07-24 22:25:03,342 autoreload 6936 4248 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:25:04,574 autoreload 10172 1332 Watching for file changes with StatReloader
+INFO 2024-07-24 22:25:11,529 autoreload 10172 1332 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:25:12,458 autoreload 8528 6316 Watching for file changes with StatReloader
+INFO 2024-07-24 22:25:14,044 autoreload 8528 6316 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:25:14,930 autoreload 4536 6824 Watching for file changes with StatReloader
+INFO 2024-07-24 22:25:15,541 basehttp 4536 3872 "GET /clients/create_client/?csrfmiddlewaretoken=oYjec3uuE0ripeKyBjtdoTXefmBxG5WUCfiSb6gpCawXDYzHULBMW1rkrnZb1s4I&create_client= HTTP/1.1" 200 1536
+INFO 2024-07-24 22:25:40,151 autoreload 4536 6824 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:25:41,178 autoreload 13732 3772 Watching for file changes with StatReloader
+INFO 2024-07-24 22:25:44,949 autoreload 13732 3772 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:25:45,910 autoreload 2684 13744 Watching for file changes with StatReloader
+INFO 2024-07-24 22:25:54,313 autoreload 2684 13744 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:25:55,159 autoreload 2060 10316 Watching for file changes with StatReloader
+INFO 2024-07-24 22:26:04,578 autoreload 2060 10316 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:26:05,408 autoreload 5728 10492 Watching for file changes with StatReloader
+INFO 2024-07-24 22:26:13,860 autoreload 5728 10492 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:26:14,689 autoreload 13476 140 Watching for file changes with StatReloader
+INFO 2024-07-24 22:26:16,973 autoreload 13476 140 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:26:17,825 autoreload 6260 10172 Watching for file changes with StatReloader
+INFO 2024-07-24 22:26:30,716 autoreload 6260 10172 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:26:31,760 autoreload 3424 7836 Watching for file changes with StatReloader
+INFO 2024-07-24 22:26:36,564 autoreload 3424 7836 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:26:37,426 autoreload 2856 12932 Watching for file changes with StatReloader
+INFO 2024-07-24 22:26:43,189 basehttp 2856 5000 "GET /clients/create_client/?csrfmiddlewaretoken=oYjec3uuE0ripeKyBjtdoTXefmBxG5WUCfiSb6gpCawXDYzHULBMW1rkrnZb1s4I&create_client= HTTP/1.1" 200 1584
+INFO 2024-07-24 22:27:27,502 autoreload 2856 12932 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:27:28,510 autoreload 3992 12208 Watching for file changes with StatReloader
+INFO 2024-07-24 22:27:29,858 autoreload 3992 12208 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:27:30,738 autoreload 9916 8144 Watching for file changes with StatReloader
+INFO 2024-07-24 22:27:33,015 autoreload 9916 8144 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:27:34,000 autoreload 10196 8348 Watching for file changes with StatReloader
+INFO 2024-07-24 22:27:39,669 autoreload 10196 8348 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:27:40,577 autoreload 3552 6312 Watching for file changes with StatReloader
+INFO 2024-07-24 22:27:52,528 autoreload 3552 6312 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:27:53,838 autoreload 10732 13380 Watching for file changes with StatReloader
+INFO 2024-07-24 22:28:27,179 autoreload 10732 13380 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:28:28,061 autoreload 9008 10784 Watching for file changes with StatReloader
+INFO 2024-07-24 22:28:36,931 autoreload 9008 10784 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:28:37,836 autoreload 12704 10320 Watching for file changes with StatReloader
+INFO 2024-07-24 22:28:42,585 autoreload 12704 10320 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:28:43,645 autoreload 13800 9916 Watching for file changes with StatReloader
+INFO 2024-07-24 22:28:46,325 autoreload 13800 9916 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:28:47,293 autoreload 13756 8692 Watching for file changes with StatReloader
+INFO 2024-07-24 22:28:51,974 autoreload 13756 8692 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:28:53,176 autoreload 4500 12208 Watching for file changes with StatReloader
+INFO 2024-07-24 22:29:24,403 autoreload 4500 12208 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:29:25,281 autoreload 12612 12816 Watching for file changes with StatReloader
+INFO 2024-07-24 22:29:28,975 autoreload 12612 12816 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 22:29:29,758 autoreload 6588 11956 Watching for file changes with StatReloader
+INFO 2024-07-24 22:47:20,713 autoreload 6588 11956 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-07-24 22:47:21,558 autoreload 5752 8940 Watching for file changes with StatReloader
+INFO 2024-07-24 22:48:52,363 autoreload 5752 8940 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:48:53,471 autoreload 6124 4184 Watching for file changes with StatReloader
+INFO 2024-07-24 22:51:28,565 autoreload 6124 4184 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:51:29,786 autoreload 4908 13084 Watching for file changes with StatReloader
+INFO 2024-07-24 22:51:32,282 autoreload 4908 13084 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:51:33,095 autoreload 7496 10084 Watching for file changes with StatReloader
+INFO 2024-07-24 22:51:34,613 autoreload 7496 10084 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:51:35,646 autoreload 9332 10100 Watching for file changes with StatReloader
+INFO 2024-07-24 22:51:40,258 autoreload 9332 10100 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:51:41,198 autoreload 7856 8300 Watching for file changes with StatReloader
+INFO 2024-07-24 22:52:05,197 autoreload 7856 8300 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:52:06,063 autoreload 8940 3752 Watching for file changes with StatReloader
+INFO 2024-07-24 22:52:17,047 autoreload 8940 3752 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:52:18,031 autoreload 9332 4116 Watching for file changes with StatReloader
+INFO 2024-07-24 22:52:24,911 autoreload 9332 4116 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:52:25,675 autoreload 8528 12504 Watching for file changes with StatReloader
+INFO 2024-07-24 22:53:10,347 autoreload 8528 12504 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-24 22:53:11,383 autoreload 14296 9656 Watching for file changes with StatReloader
+INFO 2024-07-24 23:34:50,051 autoreload 12824 13440 Watching for file changes with StatReloader
+ERROR 2024-07-24 23:34:56,107 log 12824 5492 Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 15, in read_clients
+    return render(request, 'fourthapp/clients.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py", line 10, in __str__
+    return f'Client: {self.name} (email: {self.email}, phone: {self.phonenumber},\nadress: {self.adress})'
+                                                                                            ^^^^^^^^^^^
+AttributeError: 'Client' object has no attribute 'adress'. Did you mean: 'address'?
+ERROR 2024-07-24 23:34:56,134 basehttp 12824 5492 "GET /clients/ HTTP/1.1" 500 155084
+INFO 2024-07-24 23:36:34,414 autoreload 12824 13440 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-24 23:36:35,378 autoreload 3928 7160 Watching for file changes with StatReloader
+INFO 2024-07-24 23:36:42,013 basehttp 3928 7260 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-24 23:36:45,823 basehttp 3928 7260 "GET /clients/create_client/?csrfmiddlewaretoken=nMaYuX1T7dB3JPa5A7dPLzPTccj76vu7B39Ct0NO5nGIXzZeTzlojHjZodHLrSCV&create_client= HTTP/1.1" 200 1614
+INFO 2024-07-24 23:36:49,168 basehttp 3928 7260 "GET /products/ HTTP/1.1" 200 1811
+INFO 2024-07-24 23:36:56,004 basehttp 3928 7260 "GET /orders/ HTTP/1.1" 200 6113
+INFO 2024-07-24 23:36:58,775 basehttp 3928 7260 "GET /products/ HTTP/1.1" 200 1811
+INFO 2024-07-24 23:36:59,582 basehttp 3928 7260 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-24 23:37:03,277 basehttp 3928 7260 "GET /products/ HTTP/1.1" 200 1811
+INFO 2024-07-24 23:37:04,571 basehttp 3928 7260 "GET /products/create_product/?csrfmiddlewaretoken=01RGe5NwkezdO5KV5aVm302XoajncdUneiQkd8zrioES2Pz4oC3VB8w3AbH1xA2b&create_product= HTTP/1.1" 200 1729
+INFO 2024-07-24 23:41:14,762 autoreload 3928 7160 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:15,734 autoreload 6160 12732 Watching for file changes with StatReloader
+INFO 2024-07-24 23:41:23,601 autoreload 6160 12732 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:24,378 autoreload 8784 3776 Watching for file changes with StatReloader
+INFO 2024-07-24 23:41:41,368 autoreload 8784 3776 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:42,401 autoreload 12600 7592 Watching for file changes with StatReloader
+INFO 2024-07-24 23:41:43,771 autoreload 12600 7592 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:44,552 autoreload 12316 8576 Watching for file changes with StatReloader
+INFO 2024-07-24 23:41:46,108 autoreload 12316 8576 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:46,952 autoreload 9180 5512 Watching for file changes with StatReloader
+INFO 2024-07-24 23:41:53,675 autoreload 9180 5512 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:54,467 autoreload 12028 6824 Watching for file changes with StatReloader
+INFO 2024-07-24 23:41:55,985 autoreload 12028 6824 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:41:56,806 autoreload 12952 12896 Watching for file changes with StatReloader
+INFO 2024-07-24 23:42:09,688 autoreload 12952 12896 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:42:10,499 autoreload 11712 10864 Watching for file changes with StatReloader
+INFO 2024-07-24 23:42:12,181 autoreload 11712 10864 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:42:13,187 autoreload 10732 12208 Watching for file changes with StatReloader
+INFO 2024-07-24 23:42:14,768 autoreload 10732 12208 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:42:15,583 autoreload 740 6516 Watching for file changes with StatReloader
+INFO 2024-07-24 23:42:20,194 autoreload 740 6516 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-24 23:42:21,064 autoreload 12796 5192 Watching for file changes with StatReloader
+INFO 2024-07-24 23:42:25,501 basehttp 12796 7376 "GET /products/create_product/?csrfmiddlewaretoken=01RGe5NwkezdO5KV5aVm302XoajncdUneiQkd8zrioES2Pz4oC3VB8w3AbH1xA2b&create_product= HTTP/1.1" 200 1783
+ERROR 2024-07-24 23:42:57,919 log 12796 7376 Internal Server Error: /products/create_product/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 66, in create_product
+    new_product.save()
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1695, in pre_save_val
+    return field.pre_save(obj, add=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\db\models\fields\files.py", line 315, in pre_save
+    if file and not file._committed:
+                    ^^^^^^^^^^^^^^^
+AttributeError: 'ProductCreateForm' object has no attribute '_committed'
+ERROR 2024-07-24 23:42:57,930 basehttp 12796 7376 "POST /products/create_product/?csrfmiddlewaretoken=01RGe5NwkezdO5KV5aVm302XoajncdUneiQkd8zrioES2Pz4oC3VB8w3AbH1xA2b&create_product= HTTP/1.1" 500 122191
+INFO 2024-07-25 21:17:22,941 autoreload 12796 5192 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-25 21:17:24,294 autoreload 14880 7140 Watching for file changes with StatReloader
+INFO 2024-07-25 21:17:25,910 autoreload 14880 7140 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-25 21:17:27,017 autoreload 14824 1584 Watching for file changes with StatReloader
+INFO 2024-07-25 21:17:29,683 autoreload 14824 1584 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\forms.py changed, reloading.
+INFO 2024-07-25 21:17:30,514 autoreload 7488 5656 Watching for file changes with StatReloader
+INFO 2024-07-25 21:17:59,835 autoreload 7488 5656 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:18:00,785 autoreload 13180 15060 Watching for file changes with StatReloader
+INFO 2024-07-25 21:18:02,426 autoreload 13180 15060 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:18:03,716 autoreload 14292 14136 Watching for file changes with StatReloader
+INFO 2024-07-25 21:20:23,703 autoreload 14484 15080 Watching for file changes with StatReloader
+INFO 2024-07-25 21:20:45,691 basehttp 14484 15264 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-25 21:20:54,717 basehttp 14484 15264 "POST /products/ HTTP/1.1" 200 1080
+INFO 2024-07-25 21:21:02,901 basehttp 14484 15264 "GET /products/ HTTP/1.1" 200 1811
+INFO 2024-07-25 21:21:04,843 basehttp 14484 15264 "GET /orders/ HTTP/1.1" 200 6113
+INFO 2024-07-25 21:21:05,825 basehttp 14484 15264 "GET /products/ HTTP/1.1" 200 1811
+INFO 2024-07-25 21:21:07,988 basehttp 14484 15264 "GET /products/create_product/?csrfmiddlewaretoken=PgjzyFPqo49hY3OpFy03e6YGjIAHSNSy3xidxIBlmeeWcNDyY08CMesMvJYlda0m&create_product= HTTP/1.1" 200 1787
+ERROR 2024-07-25 21:21:41,678 log 14484 15264 Internal Server Error: /products/create_product/
+Traceback (most recent call last):
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py", line 60, in create_product
+    foto=form.cleaned_data['foto']
+         ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'foto'
+ERROR 2024-07-25 21:21:41,681 basehttp 14484 15264 "POST /products/create_product/?csrfmiddlewaretoken=PgjzyFPqo49hY3OpFy03e6YGjIAHSNSy3xidxIBlmeeWcNDyY08CMesMvJYlda0m&create_product= HTTP/1.1" 500 69987
+INFO 2024-07-25 21:22:01,687 autoreload 14484 15080 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:02,569 autoreload 9308 10204 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:09,270 autoreload 9308 10204 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:10,157 autoreload 2832 10536 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:12,949 autoreload 2832 10536 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:13,836 autoreload 9460 8144 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:23,661 autoreload 9460 8144 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:24,713 autoreload 5860 7120 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:26,377 autoreload 5860 7120 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:27,307 autoreload 14868 7368 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:28,808 autoreload 14868 7368 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:29,709 autoreload 10672 15256 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:42,650 autoreload 10672 15256 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:43,615 autoreload 5036 7884 Watching for file changes with StatReloader
+INFO 2024-07-25 21:22:47,490 autoreload 5036 7884 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\views.py changed, reloading.
+INFO 2024-07-25 21:22:48,314 autoreload 15188 15080 Watching for file changes with StatReloader
+INFO 2024-07-25 21:23:14,921 basehttp 15188 10204 "POST /products/create_product/?csrfmiddlewaretoken=PgjzyFPqo49hY3OpFy03e6YGjIAHSNSy3xidxIBlmeeWcNDyY08CMesMvJYlda0m&create_product= HTTP/1.1" 302 0
+INFO 2024-07-25 21:23:14,943 basehttp 15188 10204 "GET /products/ HTTP/1.1" 200 1909
+INFO 2024-07-25 21:24:39,348 autoreload 15188 15080 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:24:40,358 autoreload 1528 4584 Watching for file changes with StatReloader
+INFO 2024-07-25 21:24:44,005 autoreload 1528 4584 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:24:44,954 autoreload 4772 5488 Watching for file changes with StatReloader
+INFO 2024-07-25 21:24:47,347 autoreload 4772 5488 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:24:48,130 autoreload 9204 9332 Watching for file changes with StatReloader
+INFO 2024-07-25 21:24:51,653 autoreload 9204 9332 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:24:52,840 autoreload 5896 2832 Watching for file changes with StatReloader
+INFO 2024-07-25 21:24:57,532 autoreload 5896 2832 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:24:58,763 autoreload 14392 13744 Watching for file changes with StatReloader
+INFO 2024-07-25 21:24:59,800 basehttp 14392 14968 "GET /products/ HTTP/1.1" 200 1947
+INFO 2024-07-25 21:25:13,777 autoreload 14392 13744 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:14,729 autoreload 14340 13512 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:16,278 autoreload 14340 13512 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:17,383 autoreload 5488 15248 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:20,914 autoreload 5488 15248 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:21,885 autoreload 9692 5656 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:22,217 basehttp 9692 8620 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:25:42,060 autoreload 9692 5656 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:43,204 autoreload 5188 13572 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:46,620 autoreload 5188 13572 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:47,442 autoreload 9016 12772 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:49,764 autoreload 9016 12772 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:50,648 autoreload 5100 7964 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:53,159 autoreload 5100 7964 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:54,302 autoreload 5604 4028 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:56,606 autoreload 5604 4028 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:25:57,429 autoreload 10260 8364 Watching for file changes with StatReloader
+INFO 2024-07-25 21:25:59,241 autoreload 10260 8364 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:00,137 autoreload 716 10404 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:10,628 autoreload 716 10404 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:11,694 autoreload 13348 10536 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:14,182 autoreload 13348 10536 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:15,100 autoreload 13960 4396 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:18,444 autoreload 13960 4396 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:19,185 autoreload 5492 13068 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:23,536 autoreload 5492 13068 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:24,305 autoreload 13428 9784 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:29,696 autoreload 13428 9784 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:30,584 autoreload 15180 6344 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:31,876 autoreload 15180 6344 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:32,701 autoreload 9756 5840 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:36,095 autoreload 9756 5840 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:36,806 autoreload 7188 11808 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:46,250 autoreload 7188 11808 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:47,416 autoreload 8696 9872 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:48,795 autoreload 8696 9872 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:49,642 autoreload 14588 9812 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:50,978 autoreload 14588 9812 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:51,852 autoreload 12384 13764 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:57,202 autoreload 12384 13764 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:26:58,083 autoreload 3052 10128 Watching for file changes with StatReloader
+INFO 2024-07-25 21:26:59,426 autoreload 3052 10128 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:00,356 autoreload 7196 5584 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:05,706 autoreload 7196 5584 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:06,517 autoreload 3168 15152 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:07,790 autoreload 3168 15152 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:08,760 autoreload 15000 12084 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:13,202 autoreload 15000 12084 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:14,007 autoreload 5776 11224 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:22,582 autoreload 5776 11224 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:23,458 autoreload 14564 3912 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:25,806 autoreload 14564 3912 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:26,596 autoreload 15152 12608 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:29,038 autoreload 15152 12608 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:29,970 autoreload 2824 12140 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:32,432 autoreload 2824 12140 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:33,188 autoreload 13712 7200 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:41,636 autoreload 13712 7200 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:42,522 autoreload 5388 6516 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:43,901 autoreload 5388 6516 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:44,823 autoreload 5776 7160 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:48,213 autoreload 5776 7160 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:49,147 autoreload 5108 140 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:55,531 autoreload 5108 140 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:56,307 autoreload 14648 15236 Watching for file changes with StatReloader
+INFO 2024-07-25 21:27:57,570 autoreload 14648 15236 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:27:58,537 autoreload 6316 13572 Watching for file changes with StatReloader
+INFO 2024-07-25 21:28:06,090 autoreload 6316 13572 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:28:06,911 autoreload 14456 12676 Watching for file changes with StatReloader
+INFO 2024-07-25 21:28:08,191 autoreload 14456 12676 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:28:09,121 autoreload 4116 1492 Watching for file changes with StatReloader
+INFO 2024-07-25 21:28:15,531 autoreload 4116 1492 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:28:16,263 autoreload 2376 15060 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:20,804 autoreload 2376 15060 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:21,763 autoreload 15344 12824 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:26,193 autoreload 15344 12824 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:26,971 autoreload 10400 8364 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:29,294 autoreload 10400 8364 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:30,177 autoreload 9332 1332 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:32,644 autoreload 9332 1332 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:33,646 autoreload 12624 320 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:36,962 autoreload 12624 320 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:37,783 autoreload 3800 3424 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:40,159 autoreload 3800 3424 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:41,160 autoreload 10148 6280 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:49,601 autoreload 10148 6280 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:50,340 autoreload 1928 13236 Watching for file changes with StatReloader
+INFO 2024-07-25 21:29:52,653 autoreload 1928 13236 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:29:53,453 autoreload 7832 15200 Watching for file changes with StatReloader
+INFO 2024-07-25 21:30:14,115 autoreload 7832 15200 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:30:15,117 autoreload 13892 9008 Watching for file changes with StatReloader
+INFO 2024-07-25 21:30:22,564 autoreload 13892 9008 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:30:23,417 autoreload 8404 9308 Watching for file changes with StatReloader
+INFO 2024-07-25 21:30:32,591 basehttp 8404 13604 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:30:34,550 basehttp 8404 13604 "GET /orders/ HTTP/1.1" 200 6803
+INFO 2024-07-25 21:30:35,181 basehttp 8404 13604 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:30:41,631 basehttp 8404 13604 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:32:19,087 autoreload 8404 9308 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:32:20,180 autoreload 15256 14620 Watching for file changes with StatReloader
+INFO 2024-07-25 21:32:32,170 autoreload 15256 14620 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:32:33,124 autoreload 7052 14416 Watching for file changes with StatReloader
+INFO 2024-07-25 21:32:45,935 autoreload 7052 14416 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:32:47,766 autoreload 1328 12764 Watching for file changes with StatReloader
+INFO 2024-07-25 21:32:50,363 autoreload 1328 12764 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:32:51,285 autoreload 14872 3052 Watching for file changes with StatReloader
+INFO 2024-07-25 21:32:56,047 autoreload 14872 3052 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:32:56,863 autoreload 9320 13512 Watching for file changes with StatReloader
+INFO 2024-07-25 21:33:00,485 autoreload 9320 13512 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:33:01,509 autoreload 14916 9500 Watching for file changes with StatReloader
+INFO 2024-07-25 21:33:03,099 autoreload 14916 9500 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:33:04,062 autoreload 14576 13344 Watching for file changes with StatReloader
+INFO 2024-07-25 21:37:47,609 autoreload 14576 13344 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:37:48,729 autoreload 10004 14872 Watching for file changes with StatReloader
+INFO 2024-07-25 21:37:54,584 autoreload 10004 14872 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:37:55,461 autoreload 7084 10324 Watching for file changes with StatReloader
+INFO 2024-07-25 21:39:34,862 autoreload 7084 10324 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:39:35,992 autoreload 4296 13572 Watching for file changes with StatReloader
+INFO 2024-07-25 21:39:38,774 autoreload 4296 13572 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:39:39,769 autoreload 13416 1900 Watching for file changes with StatReloader
+INFO 2024-07-25 21:39:41,842 autoreload 13416 1900 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:39:42,926 autoreload 2024 9008 Watching for file changes with StatReloader
+INFO 2024-07-25 21:39:47,233 basehttp 2024 1460 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:39:48,322 basehttp 2024 1460 "GET /orders/ HTTP/1.1" 200 6803
+INFO 2024-07-25 21:39:48,873 basehttp 2024 1460 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:42:35,971 autoreload 2024 9008 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:42:36,871 autoreload 3100 12668 Watching for file changes with StatReloader
+INFO 2024-07-25 21:42:45,686 autoreload 3100 12668 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:42:46,774 autoreload 13184 15152 Watching for file changes with StatReloader
+INFO 2024-07-25 21:42:52,491 autoreload 13184 15152 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:42:53,518 autoreload 5700 8032 Watching for file changes with StatReloader
+INFO 2024-07-25 21:43:08,894 basehttp 5700 7288 "GET /orders/ HTTP/1.1" 200 6803
+INFO 2024-07-25 21:43:09,519 basehttp 5700 7288 "GET /products/ HTTP/1.1" 200 2035
+INFO 2024-07-25 21:44:29,974 autoreload 5700 8032 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:44:30,954 autoreload 2940 7520 Watching for file changes with StatReloader
+INFO 2024-07-25 21:45:12,040 autoreload 2940 7520 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:45:13,066 autoreload 10084 14448 Watching for file changes with StatReloader
+INFO 2024-07-25 21:45:19,878 autoreload 10084 14448 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:45:20,930 autoreload 2828 3424 Watching for file changes with StatReloader
+INFO 2024-07-25 21:45:21,281 basehttp 2828 3528 "GET /products/ HTTP/1.1" 200 1935
+INFO 2024-07-25 21:45:41,179 autoreload 2828 3424 D:\LESSONS\PYTHON\Django\DZ\Task1\fourthapp\models.py changed, reloading.
+INFO 2024-07-25 21:45:42,165 autoreload 5192 15268 Watching for file changes with StatReloader
+INFO 2024-07-25 21:45:56,013 basehttp 5192 14120 "GET /orders/ HTTP/1.1" 200 6113
+INFO 2024-07-25 21:45:56,861 basehttp 5192 14120 "GET /products/ HTTP/1.1" 200 1935
+INFO 2024-07-25 21:45:57,765 basehttp 5192 14120 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-25 21:46:00,147 basehttp 5192 14120 "GET /products/ HTTP/1.1" 200 1935
+INFO 2024-07-25 21:46:10,890 basehttp 5192 14120 "GET /products/create_product/?csrfmiddlewaretoken=r9nULnqMcz4yPsGyRjRdunl5n0mUFe6FFqmyKqcHaJ9d3cvHaLZM2vPbz1Ky0Bet&create_product= HTTP/1.1" 200 1787
+INFO 2024-07-25 21:48:35,180 basehttp 5192 14120 "POST /products/create_product/?csrfmiddlewaretoken=r9nULnqMcz4yPsGyRjRdunl5n0mUFe6FFqmyKqcHaJ9d3cvHaLZM2vPbz1Ky0Bet&create_product= HTTP/1.1" 302 0
+INFO 2024-07-25 21:48:35,188 basehttp 5192 14120 "GET /products/ HTTP/1.1" 200 2065
+INFO 2024-07-25 21:48:54,086 basehttp 5192 14120 "GET /products/ HTTP/1.1" 200 2065
+INFO 2024-07-25 21:48:56,100 basehttp 5192 14120 "GET /orders/ HTTP/1.1" 200 6113
+INFO 2024-07-25 21:49:00,732 basehttp 5192 14120 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-25 21:49:08,635 basehttp 5192 14120 "GET /products/ HTTP/1.1" 200 2065
+INFO 2024-07-25 21:50:05,621 basehttp 5192 14120 "GET /clients/ HTTP/1.1" 200 4140
+INFO 2024-07-25 21:50:10,601 basehttp 5192 14120 "POST /products/ HTTP/1.1" 200 1834
+INFO 2024-07-25 21:50:16,784 basehttp 5192 14120 "GET /clients/ HTTP/1.1" 200 4140

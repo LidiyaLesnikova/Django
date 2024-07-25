@@ -19,10 +19,11 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('thirdapp.urls')),
+    path('',include('fourthapp.urls')),
     path('magazin/',include('secondapp.urls')),
-    path('magazin_read/',include('thirdapp.urls')),
-    path('clients/',include('thirdapp.urls')),
-    path('products/',include('thirdapp.urls')),
-    path('orders/',include('thirdapp.urls')),
+    path('magazin3/',include('thirdapp.urls')),
+    path('magazin4/',include('fourthapp.urls')),
+    path('clients/',include('fourthapp.urls')),
+    path('products/',include('fourthapp.urls')),
+    path('orders/',include('fourthapp.urls')),
 ]
