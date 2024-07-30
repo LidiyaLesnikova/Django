@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+список клиентов
+{% endblock %}
+
+{% block content %}
+<h2>Cписок клиентов:</h2>
+<form method="POST" action="/products/">
+    {% csrf_token %}
+    <table>
+        <thead>
+            <th>Клиент</th>
+            <th>
+                <button>Вывести</button> список товаров за:
+                <input type="radio" name="days_report" value=7 checked>7 дней
+                <input type="radio" name="days_report" value=30>30 дней
+                <input type="radio" name="days_report" value=365>365 дней
+            </th>
+        </thead>
+        {% for  client in list_clients %}
+        <tr>
+            <td>{{ client }}</td>
+            <td>
+                <input type="radio" name="client_id" value="{{client.id}}" checked/>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</form>
+<p>
+    <form method="GET" action="create_client/">
+        {% csrf_token %}
+        <button class="form_auth_button" type="submit" name="create_client">Создать нового клиента</button>
+    </form>
+</p>
+{% endblock %}

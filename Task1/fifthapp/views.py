@@ -12,7 +12,7 @@ def index(request):
 def read_clients(request):
     list_clients = Client.objects.all()
     context = {'list_clients': list_clients}
-    return render(request, 'fifthapp/clients.html', context)
+    return render(request, 'fourthapp/clients.html', context)
 
 def read_products(request):
     if request.method == 'POST':
@@ -32,12 +32,12 @@ def read_products(request):
         list_products = Product.objects.all()
         print_client = ""
     context = {'list_products': list_products, 'print_client': print_client}
-    return render(request, 'fifthapp/products.html', context)
+    return render(request, 'fourthapp/products.html', context)
 
 def read_orders(request):
     list_orders = Order.objects.all()
     context = {'list_orders': list_orders}
-    return render(request, 'fifthapp/orders.html', context)
+    return render(request, 'fourthapp/orders.html', context)
 
 def create_client(request):
     if request.method == 'POST':
@@ -51,7 +51,7 @@ def create_client(request):
             return HttpResponseRedirect('/clients/')
     else:
         form = ClientCreateForm()
-        return  render(request, 'fifthapp/new_entry.html', {'form': form, 'title':'Ввод данных клиента'})    
+        return  render(request, 'fourthapp/new_entry.html', {'form': form, 'title':'Ввод данных клиента'})    
 
 def create_product(request):
     if request.method == 'POST':
@@ -69,7 +69,7 @@ def create_product(request):
             return HttpResponseRedirect('/products/')
     else:
         form = ProductCreateForm()
-        return  render(request, 'fifthapp/new_entry.html', {'form': form, 'title':'Ввод нового товара'})    
+        return  render(request, 'fourthapp/new_entry.html', {'form': form, 'title':'Ввод нового товара'})    
 
 def create_fake_bases(request):
     for i in range(10):

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+список товаров
+{% endblock %}
+
+{% block content %}
+<h2>Cписок товаров{{print_client}}:</h2>
+<table>
+    {% for product in list_products %}
+    <tr>
+        <td>{{ product }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<p>
+    <form method="GET" action="create_product/">
+    {% csrf_token %}
+    <button class="form_auth_button" type="submit" name="create_product">Создать новый товар</button>
+    </form>
+</p>
+{% endblock %}
