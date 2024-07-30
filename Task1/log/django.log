@@ -5529,3 +5529,595 @@ INFO 2024-07-30 19:16:09,613 basehttp 10348 8244 "GET /clients/ HTTP/1.1" 200 38
 INFO 2024-07-30 19:16:17,834 basehttp 10348 8244 "GET /products/ HTTP/1.1" 200 1810
 INFO 2024-07-30 19:16:19,299 basehttp 10348 8244 "GET /orders/ HTTP/1.1" 200 5627
 INFO 2024-07-30 19:16:20,878 basehttp 10348 8244 "GET /clients/ HTTP/1.1" 200 3895
+INFO 2024-07-30 19:26:16,007 autoreload 12508 11508 Watching for file changes with StatReloader
+INFO 2024-07-30 19:26:28,498 basehttp 12508 11484 "GET / HTTP/1.1" 200 502
+INFO 2024-07-30 19:26:32,927 basehttp 12508 11484 "GET /admin HTTP/1.1" 301 0
+INFO 2024-07-30 19:26:33,094 basehttp 12508 3540 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-07-30 19:26:33,156 basehttp 12508 12608 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-07-30 19:26:33,159 basehttp 12508 8484 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-07-30 19:26:33,160 basehttp 12508 9304 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-07-30 19:26:33,161 basehttp 12508 3188 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-07-30 19:26:33,308 basehttp 12508 3540 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-07-30 19:26:33,327 basehttp 12508 3188 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-07-30 19:26:33,347 basehttp 12508 3540 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-07-30 19:26:33,348 basehttp 12508 13836 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-07-30 19:26:33,354 basehttp 12508 9304 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-07-30 19:31:52,851 autoreload 12508 11508 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:31:53,572 autoreload 2652 9100 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:06,954 autoreload 2652 9100 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:07,995 autoreload 10784 2012 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:14,433 autoreload 10784 2012 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:15,220 autoreload 14112 2528 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:18,544 autoreload 14112 2528 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:19,270 autoreload 6548 13016 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:22,581 autoreload 6548 13016 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:23,454 autoreload 9364 10532 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:31,947 autoreload 9364 10532 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:32,735 autoreload 12692 8780 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:37,107 autoreload 12692 8780 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:37,920 autoreload 5764 13744 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:40,302 autoreload 5764 13744 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:41,140 autoreload 6696 3996 Watching for file changes with StatReloader
+INFO 2024-07-30 19:33:43,664 autoreload 6696 3996 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:33:44,570 autoreload 11560 5948 Watching for file changes with StatReloader
+INFO 2024-07-30 19:34:10,390 autoreload 14176 9164 Watching for file changes with StatReloader
+INFO 2024-07-30 19:34:13,000 basehttp 14176 2908 "GET /admin/ HTTP/1.1" 200 7538
+INFO 2024-07-30 19:35:07,537 basehttp 14176 2908 "GET /admin/ HTTP/1.1" 200 7538
+INFO 2024-07-30 19:35:16,154 basehttp 14176 2908 "GET /admin/ HTTP/1.1" 200 7538
+INFO 2024-07-30 19:35:28,628 basehttp 14176 2908 "GET /admin/fifthapp/client/ HTTP/1.1" 200 14396
+INFO 2024-07-30 19:35:28,748 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:35:28,831 basehttp 14176 2908 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-07-30 19:35:28,938 basehttp 14176 5268 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-07-30 19:35:28,944 basehttp 14176 2908 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-07-30 19:35:28,984 basehttp 14176 4364 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-07-30 19:35:28,998 basehttp 14176 10256 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-07-30 19:35:29,036 basehttp 14176 10848 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-07-30 19:35:29,048 basehttp 14176 5268 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-07-30 19:35:29,099 basehttp 14176 4224 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-07-30 19:35:29,148 basehttp 14176 2908 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-07-30 19:35:29,165 basehttp 14176 4224 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-07-30 19:35:29,229 basehttp 14176 4224 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-07-30 19:37:32,880 basehttp 14176 4224 "GET /admin/auth/group/ HTTP/1.1" 200 8951
+INFO 2024-07-30 19:37:32,922 basehttp 14176 2908 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:37:32,935 basehttp 14176 4224 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-07-30 19:37:35,442 basehttp 14176 4224 "GET /admin/auth/group/add/ HTTP/1.1" 200 17589
+INFO 2024-07-30 19:37:35,497 basehttp 14176 10256 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:37:35,502 basehttp 14176 4224 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-07-30 19:37:35,514 basehttp 14176 2908 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-07-30 19:37:35,516 basehttp 14176 5268 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-07-30 19:37:35,550 basehttp 14176 4224 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-07-30 19:37:35,560 basehttp 14176 10848 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-07-30 19:37:35,654 basehttp 14176 4224 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-07-30 19:37:35,768 basehttp 14176 2908 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-07-30 19:37:35,768 basehttp 14176 10848 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-07-30 19:37:35,769 basehttp 14176 4224 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-07-30 19:41:56,173 basehttp 14176 4224 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:41:56,198 basehttp 14176 4224 "GET /admin/auth/group/ HTTP/1.1" 200 10668
+INFO 2024-07-30 19:41:56,252 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:41:56,430 basehttp 14176 4224 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-07-30 19:42:00,300 basehttp 14176 4224 "GET /admin/auth/group/add/ HTTP/1.1" 200 17589
+INFO 2024-07-30 19:42:00,349 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:43:04,335 basehttp 14176 4224 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:43:04,353 basehttp 14176 4224 "GET /admin/auth/group/ HTTP/1.1" 200 10992
+INFO 2024-07-30 19:43:04,385 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:43:07,412 basehttp 14176 4224 "GET /admin/auth/group/add/ HTTP/1.1" 200 17589
+INFO 2024-07-30 19:43:07,458 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:43:29,338 basehttp 14176 4224 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:43:29,356 basehttp 14176 4224 "GET /admin/auth/group/ HTTP/1.1" 200 11311
+INFO 2024-07-30 19:43:29,389 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:43:31,322 basehttp 14176 4224 "GET /admin/auth/group/3/change/ HTTP/1.1" 200 17853
+INFO 2024-07-30 19:43:31,359 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:44:14,156 basehttp 14176 4224 "POST /admin/auth/group/3/change/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:44:14,236 basehttp 14176 4224 "GET /admin/auth/group/ HTTP/1.1" 200 11313
+INFO 2024-07-30 19:44:14,278 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:44:18,896 basehttp 14176 4224 "GET /admin/auth/user/add/ HTTP/1.1" 200 12406
+INFO 2024-07-30 19:44:18,937 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:44:37,908 basehttp 14176 4224 "POST /admin/auth/user/add/ HTTP/1.1" 200 12683
+INFO 2024-07-30 19:44:37,941 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:45:14,382 basehttp 14176 4224 "POST /admin/auth/user/add/ HTTP/1.1" 200 12912
+INFO 2024-07-30 19:45:14,427 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:45:36,860 basehttp 14176 4224 "POST /admin/auth/user/add/ HTTP/1.1" 200 12683
+INFO 2024-07-30 19:45:36,910 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:45:53,125 basehttp 14176 4224 "POST /admin/auth/user/add/ HTTP/1.1" 200 12683
+INFO 2024-07-30 19:45:53,168 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:46:54,341 basehttp 14176 4224 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:46:54,426 basehttp 14176 4224 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28583
+INFO 2024-07-30 19:46:54,523 basehttp 14176 13704 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-07-30 19:46:54,524 basehttp 14176 4224 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-07-30 19:46:54,524 basehttp 14176 4952 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:46:54,685 basehttp 14176 4224 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-07-30 19:46:54,685 basehttp 14176 4952 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-07-30 19:47:56,768 basehttp 14176 4952 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:47:56,806 basehttp 14176 4952 "GET /admin/auth/user/ HTTP/1.1" 200 14258
+INFO 2024-07-30 19:47:56,983 basehttp 14176 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:47:57,003 basehttp 14176 4952 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-07-30 19:47:57,093 basehttp 14176 4224 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-07-30 19:47:57,112 basehttp 14176 13704 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-07-30 19:48:25,920 basehttp 14176 13704 "GET /admin/auth/user/add/ HTTP/1.1" 200 12406
+INFO 2024-07-30 19:48:25,957 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:48:42,113 basehttp 14176 13704 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:48:42,152 basehttp 14176 13704 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28593
+INFO 2024-07-30 19:48:42,211 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:49:02,840 basehttp 14176 13704 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:49:02,861 basehttp 14176 13704 "GET /admin/auth/user/ HTTP/1.1" 200 14778
+INFO 2024-07-30 19:49:02,984 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:49:33,255 basehttp 14176 13704 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 28313
+INFO 2024-07-30 19:49:33,313 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:49:41,060 basehttp 14176 13704 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:49:41,079 basehttp 14176 13704 "GET /admin/auth/user/ HTTP/1.1" 200 14778
+INFO 2024-07-30 19:49:41,169 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:50:39,010 basehttp 14176 13704 "GET /admin/auth/user/add/ HTTP/1.1" 200 12406
+INFO 2024-07-30 19:50:39,055 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:50:52,601 basehttp 14176 13704 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:50:52,644 basehttp 14176 13704 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 28588
+INFO 2024-07-30 19:50:52,714 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:51:02,349 basehttp 14176 13704 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:51:02,377 basehttp 14176 13704 "GET /admin/auth/user/ HTTP/1.1" 200 15288
+INFO 2024-07-30 19:51:02,438 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:51:05,317 basehttp 14176 13704 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 28326
+INFO 2024-07-30 19:51:05,348 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:51:09,354 basehttp 14176 13704 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-07-30 19:51:09,380 basehttp 14176 13704 "GET /admin/auth/user/ HTTP/1.1" 200 15287
+INFO 2024-07-30 19:51:09,474 basehttp 14176 13704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 19:59:43,562 autoreload 14176 9164 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:59:44,320 autoreload 8224 6908 Watching for file changes with StatReloader
+INFO 2024-07-30 19:59:50,718 autoreload 8224 6908 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 19:59:51,387 autoreload 5372 10676 Watching for file changes with StatReloader
+INFO 2024-07-30 20:00:17,555 autoreload 5372 10676 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:00:19,111 autoreload 4344 11728 Watching for file changes with StatReloader
+INFO 2024-07-30 20:00:32,927 autoreload 4344 11728 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:00:33,739 autoreload 12444 10180 Watching for file changes with StatReloader
+INFO 2024-07-30 20:00:36,060 autoreload 12444 10180 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:00:36,796 autoreload 8472 10196 Watching for file changes with StatReloader
+INFO 2024-07-30 20:00:43,384 autoreload 8472 10196 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:00:44,136 autoreload 2172 2280 Watching for file changes with StatReloader
+INFO 2024-07-30 20:00:45,749 autoreload 2172 2280 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:00:46,460 autoreload 12904 1944 Watching for file changes with StatReloader
+INFO 2024-07-30 20:00:48,758 autoreload 12904 1944 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:00:49,582 autoreload 5288 9164 Watching for file changes with StatReloader
+INFO 2024-07-30 20:01:00,931 basehttp 5288 1976 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15114
+INFO 2024-07-30 20:01:00,967 basehttp 5288 1976 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:01:07,014 basehttp 5288 1976 "GET /admin/fifthapp/client/ HTTP/1.1" 200 14396
+INFO 2024-07-30 20:01:07,052 basehttp 5288 1976 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:01:09,651 basehttp 5288 1976 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15114
+INFO 2024-07-30 20:01:09,687 basehttp 5288 1976 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:01:16,513 basehttp 5288 1976 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23403
+INFO 2024-07-30 20:01:16,550 basehttp 5288 1976 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:01:17,891 basehttp 5288 1976 "GET /admin/fifthapp/client/ HTTP/1.1" 200 14396
+INFO 2024-07-30 20:01:17,941 basehttp 5288 1976 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:01:29,325 autoreload 5288 9164 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:01:30,182 autoreload 9968 1336 Watching for file changes with StatReloader
+INFO 2024-07-30 20:01:32,652 autoreload 9968 1336 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:01:33,629 autoreload 12264 6284 Watching for file changes with StatReloader
+INFO 2024-07-30 20:01:34,579 basehttp 12264 12316 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15542
+INFO 2024-07-30 20:01:34,617 basehttp 12264 12316 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:01:56,830 autoreload 12264 6284 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:01:57,716 autoreload 3520 3100 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:01,124 autoreload 3520 3100 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:01,887 autoreload 8472 10972 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:06,230 autoreload 8472 10972 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:07,098 autoreload 7196 11236 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:18,041 autoreload 7196 11236 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:19,238 autoreload 4624 2580 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:22,082 autoreload 4624 2580 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:22,997 autoreload 12372 88 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:26,572 autoreload 12372 88 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:27,363 autoreload 5556 10264 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:29,841 autoreload 5556 10264 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:30,581 autoreload 10640 11560 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:34,104 autoreload 10640 11560 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:35,160 autoreload 6736 2924 Watching for file changes with StatReloader
+INFO 2024-07-30 20:02:36,263 basehttp 6736 7304 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15542
+INFO 2024-07-30 20:02:36,303 basehttp 6736 7304 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:02:37,896 basehttp 6736 7304 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15386
+INFO 2024-07-30 20:02:37,930 basehttp 6736 7304 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:02:40,122 basehttp 6736 7304 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15542
+INFO 2024-07-30 20:02:40,162 basehttp 6736 7304 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:02:57,167 autoreload 6736 2924 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:02:58,030 autoreload 4488 3848 Watching for file changes with StatReloader
+INFO 2024-07-30 20:03:03,599 autoreload 4488 3848 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:03:04,525 autoreload 14016 5516 Watching for file changes with StatReloader
+INFO 2024-07-30 20:03:14,271 autoreload 14016 5516 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:03:15,384 autoreload 4656 4224 Watching for file changes with StatReloader
+INFO 2024-07-30 20:03:19,047 autoreload 4656 4224 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:03:20,003 autoreload 10540 13788 Watching for file changes with StatReloader
+INFO 2024-07-30 20:03:37,848 autoreload 10540 13788 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:03:38,732 autoreload 10996 6812 Watching for file changes with StatReloader
+INFO 2024-07-30 20:03:49,615 autoreload 10996 6812 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:03:50,461 autoreload 14196 4896 Watching for file changes with StatReloader
+INFO 2024-07-30 20:03:55,025 autoreload 14196 4896 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:03:55,808 autoreload 7012 9968 Watching for file changes with StatReloader
+INFO 2024-07-30 20:04:01,298 autoreload 7012 9968 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:04:02,149 autoreload 4628 8176 Watching for file changes with StatReloader
+INFO 2024-07-30 20:04:08,681 autoreload 4628 8176 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:04:09,369 autoreload 9836 14116 Watching for file changes with StatReloader
+INFO 2024-07-30 20:04:34,792 autoreload 6628 14332 Watching for file changes with StatReloader
+INFO 2024-07-30 20:04:52,591 autoreload 6628 14332 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:04:53,442 autoreload 9292 2092 Watching for file changes with StatReloader
+INFO 2024-07-30 20:04:54,902 autoreload 9292 2092 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:04:55,599 autoreload 11936 3224 Watching for file changes with StatReloader
+INFO 2024-07-30 20:04:59,023 basehttp 11936 1808 "GET /admin/fifthapp/product/ HTTP/1.1" 200 14276
+INFO 2024-07-30 20:04:59,135 basehttp 11936 1808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:01,198 basehttp 11936 1808 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 20:05:01,234 basehttp 11936 1808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:03,439 basehttp 11936 1808 "GET /admin/fifthapp/product/ HTTP/1.1" 200 14276
+INFO 2024-07-30 20:05:03,478 basehttp 11936 1808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:04,116 basehttp 11936 1808 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23706
+INFO 2024-07-30 20:05:04,149 basehttp 11936 1808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:05,450 basehttp 11936 1808 "GET /admin/fifthapp/product/ HTTP/1.1" 200 14276
+INFO 2024-07-30 20:05:05,493 basehttp 11936 1808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:22,059 autoreload 11936 3224 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:05:22,877 autoreload 7544 2508 Watching for file changes with StatReloader
+INFO 2024-07-30 20:05:24,343 autoreload 7544 2508 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 20:05:25,133 autoreload 8356 5108 Watching for file changes with StatReloader
+INFO 2024-07-30 20:05:28,159 basehttp 8356 13064 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 20:05:28,197 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:30,782 basehttp 8356 13064 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 20:05:30,814 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:31,773 basehttp 8356 13064 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 20:05:31,812 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:32,492 basehttp 8356 13064 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23706
+INFO 2024-07-30 20:05:32,523 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:34,489 basehttp 8356 13064 "GET /admin/fifthapp/count/ HTTP/1.1" 200 40856
+INFO 2024-07-30 20:05:34,528 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:45,003 basehttp 8356 13064 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 20:05:45,040 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 20:05:45,731 basehttp 8356 13064 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23706
+INFO 2024-07-30 20:05:45,773 basehttp 8356 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:14:47,443 autoreload 8356 5108 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:14:48,813 autoreload 12312 6740 Watching for file changes with StatReloader
+INFO 2024-07-30 21:14:56,899 basehttp 12312 11808 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 21:14:56,945 basehttp 12312 11808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:14:58,799 basehttp 12312 11808 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23706
+INFO 2024-07-30 21:14:58,840 basehttp 12312 11808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:15:08,433 basehttp 12312 11808 "GET /admin/fifthapp/count/ HTTP/1.1" 200 40856
+INFO 2024-07-30 21:15:08,466 basehttp 12312 11808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:15:22,647 autoreload 12312 6740 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:15:23,630 autoreload 6696 10860 Watching for file changes with StatReloader
+INFO 2024-07-30 21:15:29,256 autoreload 6696 10860 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:15:30,213 autoreload 9972 9908 Watching for file changes with StatReloader
+INFO 2024-07-30 21:15:32,855 autoreload 9972 9908 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:15:34,724 autoreload 9368 13280 Watching for file changes with StatReloader
+INFO 2024-07-30 21:15:42,383 autoreload 9368 13280 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:15:43,820 autoreload 13456 8852 Watching for file changes with StatReloader
+INFO 2024-07-30 21:15:47,213 autoreload 13456 8852 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:15:48,077 autoreload 6824 9796 Watching for file changes with StatReloader
+INFO 2024-07-30 21:16:04,804 autoreload 6824 9796 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:16:05,722 autoreload 11484 2924 Watching for file changes with StatReloader
+INFO 2024-07-30 21:16:14,163 autoreload 11484 2924 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:16:15,204 autoreload 7900 12312 Watching for file changes with StatReloader
+INFO 2024-07-30 21:16:24,714 autoreload 7900 12312 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:16:25,498 autoreload 2580 9368 Watching for file changes with StatReloader
+INFO 2024-07-30 21:16:28,622 basehttp 2580 6736 "GET /admin/fifthapp/count/ HTTP/1.1" 200 40856
+INFO 2024-07-30 21:16:28,743 basehttp 2580 6736 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:16:31,587 basehttp 2580 6736 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 21:16:31,638 basehttp 2580 6736 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:16:33,969 basehttp 2580 6736 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 21:16:34,004 basehttp 2580 6736 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:16:35,116 basehttp 2580 6736 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23706
+INFO 2024-07-30 21:16:35,158 basehttp 2580 6736 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:16:36,464 basehttp 2580 6736 "GET /admin/fifthapp/count/ HTTP/1.1" 200 40856
+INFO 2024-07-30 21:16:36,501 basehttp 2580 6736 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:17:06,313 autoreload 2580 9368 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:17:07,287 autoreload 1304 1952 Watching for file changes with StatReloader
+INFO 2024-07-30 21:17:08,773 autoreload 1304 1952 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:17:09,666 autoreload 5756 13456 Watching for file changes with StatReloader
+INFO 2024-07-30 21:17:14,014 autoreload 5756 13456 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:17:14,746 autoreload 10708 252 Watching for file changes with StatReloader
+INFO 2024-07-30 21:17:16,308 autoreload 10708 252 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:17:17,063 autoreload 5304 11084 Watching for file changes with StatReloader
+INFO 2024-07-30 21:17:18,373 autoreload 5304 11084 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:17:19,424 autoreload 14140 1840 Watching for file changes with StatReloader
+INFO 2024-07-30 21:17:26,342 basehttp 14140 13468 "GET /admin/fifthapp/order/ HTTP/1.1" 200 23706
+INFO 2024-07-30 21:17:26,393 basehttp 14140 13468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:17:28,083 basehttp 14140 13468 "GET /admin/fifthapp/count/ HTTP/1.1" 200 40856
+INFO 2024-07-30 21:17:28,121 basehttp 14140 13468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:17:45,782 autoreload 14140 1840 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:17:46,795 autoreload 10748 8268 Watching for file changes with StatReloader
+INFO 2024-07-30 21:18:24,065 autoreload 10748 8268 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:18:24,946 autoreload 2688 4864 Watching for file changes with StatReloader
+INFO 2024-07-30 21:18:34,602 autoreload 2688 4864 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:18:35,598 autoreload 1540 8584 Watching for file changes with StatReloader
+INFO 2024-07-30 21:18:39,112 autoreload 1540 8584 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:18:39,965 autoreload 8780 9812 Watching for file changes with StatReloader
+INFO 2024-07-30 21:19:31,672 autoreload 8780 9812 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:19:32,712 autoreload 11200 7136 Watching for file changes with StatReloader
+INFO 2024-07-30 21:19:35,242 autoreload 11200 7136 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:19:36,123 autoreload 8708 12248 Watching for file changes with StatReloader
+INFO 2024-07-30 21:19:49,884 autoreload 8708 12248 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:19:51,202 autoreload 6100 7752 Watching for file changes with StatReloader
+INFO 2024-07-30 21:19:59,542 basehttp 6100 14200 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 21:19:59,587 basehttp 6100 14200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:01,163 basehttp 6100 14200 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 21:20:01,202 basehttp 6100 14200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:02,452 basehttp 6100 14200 "GET /admin/fifthapp/count/ HTTP/1.1" 200 43477
+INFO 2024-07-30 21:20:02,483 basehttp 6100 14200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:06,659 basehttp 6100 14200 "GET /admin/fifthapp/order/ HTTP/1.1" 200 21504
+INFO 2024-07-30 21:20:06,737 basehttp 6100 14200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:21,955 basehttp 6100 14200 "GET /admin/fifthapp/count/ HTTP/1.1" 200 43477
+INFO 2024-07-30 21:20:21,995 basehttp 6100 14200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:31,242 autoreload 6100 7752 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:20:32,221 autoreload 3996 8136 Watching for file changes with StatReloader
+INFO 2024-07-30 21:20:35,567 autoreload 3996 8136 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:20:36,484 autoreload 8600 13732 Watching for file changes with StatReloader
+INFO 2024-07-30 21:20:40,387 basehttp 8600 4888 "GET /admin/fifthapp/order/ HTTP/1.1" 200 21504
+INFO 2024-07-30 21:20:40,434 basehttp 8600 4888 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:41,561 basehttp 8600 4888 "GET /admin/fifthapp/count/ HTTP/1.1" 200 66989
+INFO 2024-07-30 21:20:41,593 basehttp 8600 4888 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:48,838 basehttp 8600 4888 "GET /admin/fifthapp/count/67/change/ HTTP/1.1" 200 19322
+INFO 2024-07-30 21:20:48,905 basehttp 8600 4888 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:20:51,337 basehttp 8600 4888 "GET /admin/fifthapp/count/ HTTP/1.1" 200 66989
+INFO 2024-07-30 21:21:43,941 autoreload 8600 13732 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:21:44,924 autoreload 7952 9844 Watching for file changes with StatReloader
+INFO 2024-07-30 21:21:47,262 autoreload 7952 9844 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:21:48,961 autoreload 12192 8132 Watching for file changes with StatReloader
+INFO 2024-07-30 21:21:50,991 basehttp 12192 11200 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:21:51,038 basehttp 12192 11200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:21:58,221 basehttp 12192 11200 "GET /admin/fifthapp/count/ HTTP/1.1" 200 66989
+INFO 2024-07-30 21:21:58,265 basehttp 12192 11200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:22:07,334 autoreload 12192 8132 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:08,251 autoreload 12772 10592 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:09,768 autoreload 12772 10592 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:10,695 autoreload 2032 4952 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:30,621 autoreload 2032 4952 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:31,524 autoreload 10964 11076 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:47,365 autoreload 10964 11076 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:48,361 autoreload 2536 3996 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:49,872 autoreload 2536 3996 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:50,691 autoreload 12268 14140 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:51,967 autoreload 12268 14140 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:52,848 autoreload 7172 1344 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:54,096 autoreload 7172 1344 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:54,811 autoreload 10204 6336 Watching for file changes with StatReloader
+INFO 2024-07-30 21:22:58,151 autoreload 10204 6336 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:22:59,031 autoreload 4404 7084 Watching for file changes with StatReloader
+INFO 2024-07-30 21:23:05,479 autoreload 4404 7084 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:23:06,364 autoreload 11428 6440 Watching for file changes with StatReloader
+INFO 2024-07-30 21:23:11,473 basehttp 11428 13448 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:23:11,521 basehttp 11428 13448 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:23:14,061 basehttp 11428 13448 "GET /admin/fifthapp/count/ HTTP/1.1" 200 45560
+INFO 2024-07-30 21:23:14,132 basehttp 11428 13448 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:23:33,811 autoreload 11428 6440 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:23:34,642 autoreload 4848 12812 Watching for file changes with StatReloader
+INFO 2024-07-30 21:23:38,181 autoreload 4848 12812 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:23:39,155 autoreload 13516 12312 Watching for file changes with StatReloader
+INFO 2024-07-30 21:23:40,424 autoreload 13516 12312 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:23:41,274 autoreload 2828 2020 Watching for file changes with StatReloader
+INFO 2024-07-30 21:23:43,526 autoreload 2828 2020 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:23:44,500 autoreload 11612 2532 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:03,331 autoreload 11612 2532 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:04,125 autoreload 10404 10292 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:07,481 autoreload 10404 10292 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:08,391 autoreload 4600 4308 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:12,951 autoreload 4600 4308 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:13,844 autoreload 2096 2620 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:15,138 autoreload 2096 2620 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:16,144 autoreload 2460 6824 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:46,053 autoreload 2460 6824 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:47,033 autoreload 548 8244 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:49,389 autoreload 548 8244 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:50,224 autoreload 12928 3716 Watching for file changes with StatReloader
+INFO 2024-07-30 21:24:56,651 autoreload 12928 3716 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:24:57,621 autoreload 7584 12152 Watching for file changes with StatReloader
+INFO 2024-07-30 21:25:00,178 autoreload 7584 12152 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:25:01,012 autoreload 11424 1344 Watching for file changes with StatReloader
+INFO 2024-07-30 21:25:03,628 basehttp 11424 10860 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:25:03,743 basehttp 11424 10860 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:25:06,489 basehttp 11424 10860 "GET /admin/fifthapp/product/ HTTP/1.1" 200 16248
+INFO 2024-07-30 21:25:06,538 basehttp 11424 10860 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:25:08,226 basehttp 11424 10860 "GET /admin/fifthapp/count/ HTTP/1.1" 200 44472
+INFO 2024-07-30 21:25:08,258 basehttp 11424 10860 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:25:25,855 autoreload 11424 1344 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:25:26,800 autoreload 8584 9100 Watching for file changes with StatReloader
+INFO 2024-07-30 21:25:42,670 autoreload 8584 9100 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:25:43,680 autoreload 7892 11508 Watching for file changes with StatReloader
+INFO 2024-07-30 21:25:47,250 autoreload 7892 11508 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:25:48,355 autoreload 7652 11664 Watching for file changes with StatReloader
+INFO 2024-07-30 21:25:49,565 basehttp 7652 13456 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:25:49,618 basehttp 7652 13456 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:26:21,838 autoreload 7652 11664 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:26:22,721 autoreload 6492 9796 Watching for file changes with StatReloader
+INFO 2024-07-30 21:26:27,081 autoreload 6492 9796 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:26:28,078 autoreload 6524 2096 Watching for file changes with StatReloader
+INFO 2024-07-30 21:26:31,140 basehttp 6524 14196 "GET /admin/fifthapp/product/ HTTP/1.1" 200 16248
+INFO 2024-07-30 21:26:31,178 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:26:32,355 basehttp 6524 14196 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:26:32,401 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:26:34,710 basehttp 6524 14196 "GET /admin/fifthapp/count/ HTTP/1.1" 200 45560
+INFO 2024-07-30 21:26:34,746 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:26:36,365 basehttp 6524 14196 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 21:26:36,424 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:26:41,882 basehttp 6524 14196 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:26:41,914 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:26:50,270 basehttp 6524 14196 "GET /admin/fifthapp/order/?o=1 HTTP/1.1" 200 22821
+INFO 2024-07-30 21:26:50,313 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:27:55,915 basehttp 6524 14196 "GET /admin/fifthapp/count/ HTTP/1.1" 200 45560
+INFO 2024-07-30 21:27:55,958 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:27:58,710 basehttp 6524 14196 "GET /admin/fifthapp/count/?o=1 HTTP/1.1" 200 47710
+INFO 2024-07-30 21:27:58,760 basehttp 6524 14196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:28:46,413 autoreload 6524 2096 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:28:47,287 autoreload 4584 9336 Watching for file changes with StatReloader
+INFO 2024-07-30 21:28:48,770 autoreload 4584 9336 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:28:49,583 autoreload 10960 12108 Watching for file changes with StatReloader
+INFO 2024-07-30 21:28:50,981 autoreload 10960 12108 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:28:51,690 autoreload 10292 1384 Watching for file changes with StatReloader
+INFO 2024-07-30 21:28:53,154 autoreload 10292 1384 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:28:53,859 autoreload 712 10744 Watching for file changes with StatReloader
+INFO 2024-07-30 21:28:56,347 autoreload 712 10744 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:28:57,216 autoreload 14292 7304 Watching for file changes with StatReloader
+INFO 2024-07-30 21:29:46,686 autoreload 14292 7304 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:29:47,782 autoreload 13464 6944 Watching for file changes with StatReloader
+INFO 2024-07-30 21:29:49,244 autoreload 13464 6944 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:29:50,030 autoreload 8708 6760 Watching for file changes with StatReloader
+INFO 2024-07-30 21:29:52,331 autoreload 8708 6760 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:29:53,244 autoreload 11084 9368 Watching for file changes with StatReloader
+INFO 2024-07-30 21:29:55,532 autoreload 11084 9368 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:29:56,497 autoreload 8328 14116 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:00,821 autoreload 8328 14116 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:01,494 autoreload 2180 6992 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:07,869 autoreload 2180 6992 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:08,544 autoreload 7344 6340 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:10,831 autoreload 7344 6340 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:11,627 autoreload 7716 5492 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:13,960 autoreload 7716 5492 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:14,751 autoreload 9616 14300 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:17,303 autoreload 9616 14300 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:18,232 autoreload 4584 1484 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:20,747 autoreload 4584 1484 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:21,574 autoreload 1456 11232 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:22,908 autoreload 1456 11232 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:23,634 autoreload 10256 10744 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:25,062 autoreload 10256 10744 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:25,957 autoreload 4488 1048 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:29,467 autoreload 4488 1048 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:30,270 autoreload 9176 6684 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:33,731 autoreload 9176 6684 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:34,622 autoreload 7136 4600 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:40,364 autoreload 7136 4600 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:30:41,392 autoreload 10448 1072 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:53,175 autoreload 10448 1072 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:54,052 autoreload 260 12080 Watching for file changes with StatReloader
+INFO 2024-07-30 21:30:56,381 autoreload 260 12080 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:30:57,199 autoreload 6640 10640 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:01,768 autoreload 6640 10640 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:31:02,617 autoreload 13732 10920 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:05,146 autoreload 13732 10920 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:31:05,937 autoreload 3528 5756 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:08,458 autoreload 3528 5756 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:31:09,309 autoreload 4656 10456 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:13,849 autoreload 4656 10456 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:31:15,034 autoreload 6828 6992 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:17,600 autoreload 6828 6992 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:31:18,549 autoreload 7916 12692 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:21,404 basehttp 7916 8008 "GET /admin/fifthapp/product/ HTTP/1.1" 200 16248
+INFO 2024-07-30 21:31:21,436 basehttp 7916 8008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:31:23,744 basehttp 7916 8008 "GET /admin/fifthapp/order/ HTTP/1.1" 200 22075
+INFO 2024-07-30 21:31:23,783 basehttp 7916 8008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:31:26,297 basehttp 7916 8008 "GET /admin/fifthapp/count/ HTTP/1.1" 200 43297
+INFO 2024-07-30 21:31:26,329 basehttp 7916 8008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:31:50,002 autoreload 7916 12692 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:31:50,833 autoreload 8344 4908 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:53,309 autoreload 8344 4908 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:31:54,153 autoreload 7952 12380 Watching for file changes with StatReloader
+INFO 2024-07-30 21:31:58,949 autoreload 7952 12380 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:31:59,782 autoreload 10292 8656 Watching for file changes with StatReloader
+INFO 2024-07-30 21:32:02,233 autoreload 10292 8656 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:32:03,535 autoreload 4052 9084 Watching for file changes with StatReloader
+INFO 2024-07-30 21:32:24,542 autoreload 4052 9084 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:32:25,484 autoreload 11840 11704 Watching for file changes with StatReloader
+INFO 2024-07-30 21:32:38,332 autoreload 11840 11704 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:32:39,220 autoreload 13060 10708 Watching for file changes with StatReloader
+INFO 2024-07-30 21:33:23,826 autoreload 13060 10708 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:33:24,899 autoreload 1048 9892 Watching for file changes with StatReloader
+INFO 2024-07-30 21:33:26,169 autoreload 1048 9892 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:33:26,910 autoreload 10904 2280 Watching for file changes with StatReloader
+INFO 2024-07-30 21:33:45,851 autoreload 10904 2280 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:33:47,084 autoreload 8268 13412 Watching for file changes with StatReloader
+INFO 2024-07-30 21:33:49,377 autoreload 8268 13412 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:33:50,192 autoreload 8248 11076 Watching for file changes with StatReloader
+INFO 2024-07-30 21:33:55,798 autoreload 8248 11076 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:33:56,828 autoreload 4344 13348 Watching for file changes with StatReloader
+INFO 2024-07-30 21:34:03,807 autoreload 4344 13348 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:34:04,968 autoreload 2856 3624 Watching for file changes with StatReloader
+INFO 2024-07-30 21:34:05,447 basehttp 2856 4624 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 21:34:05,500 basehttp 2856 4624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:34:07,167 basehttp 2856 4624 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 21:34:07,205 basehttp 2856 4624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:34:08,386 basehttp 2856 4624 "GET /admin/fifthapp/order/ HTTP/1.1" 200 21695
+INFO 2024-07-30 21:34:08,429 basehttp 2856 4624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:34:43,264 basehttp 2856 4624 "GET /admin/fifthapp/count/ HTTP/1.1" 200 42721
+INFO 2024-07-30 21:34:43,304 basehttp 2856 4624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:34:51,758 autoreload 2856 3624 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:34:53,419 autoreload 12940 13476 Watching for file changes with StatReloader
+INFO 2024-07-30 21:34:59,111 autoreload 12940 13476 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\models.py changed, reloading.
+INFO 2024-07-30 21:34:59,968 autoreload 11332 8288 Watching for file changes with StatReloader
+INFO 2024-07-30 21:35:17,287 basehttp 11332 7628 "GET /admin/fifthapp/client/ HTTP/1.1" 200 15689
+INFO 2024-07-30 21:35:17,339 basehttp 11332 7628 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:35:18,462 basehttp 11332 7628 "GET /admin/fifthapp/product/ HTTP/1.1" 200 15845
+INFO 2024-07-30 21:35:18,504 basehttp 11332 7628 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:35:19,547 basehttp 11332 7628 "GET /admin/fifthapp/order/ HTTP/1.1" 200 20966
+INFO 2024-07-30 21:35:19,595 basehttp 11332 7628 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:35:21,403 basehttp 11332 7628 "GET /admin/fifthapp/count/ HTTP/1.1" 200 42721
+INFO 2024-07-30 21:35:21,439 basehttp 11332 7628 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:36:10,404 autoreload 11332 8288 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:11,485 autoreload 2856 5756 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:12,952 autoreload 2856 5756 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:13,712 autoreload 6492 9836 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:15,239 autoreload 6492 9836 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:16,233 autoreload 7676 10308 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:23,662 autoreload 7676 10308 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:24,456 autoreload 11728 11796 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:34,129 autoreload 11728 11796 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:35,002 autoreload 6944 1952 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:42,635 autoreload 6944 1952 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:43,336 autoreload 9812 11432 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:51,969 autoreload 9812 11432 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:52,819 autoreload 7680 14032 Watching for file changes with StatReloader
+INFO 2024-07-30 21:36:54,110 autoreload 7680 14032 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:36:54,873 autoreload 7420 10348 Watching for file changes with StatReloader
+INFO 2024-07-30 21:39:06,207 basehttp 7420 13412 "GET /admin/fifthapp/client/ HTTP/1.1" 200 18558
+INFO 2024-07-30 21:39:06,249 basehttp 7420 13412 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:39:20,780 basehttp 7420 13412 "GET /admin/fifthapp/client/?name=client3 HTTP/1.1" 200 14509
+INFO 2024-07-30 21:39:20,818 basehttp 7420 13412 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:39:23,791 basehttp 7420 13412 "GET /admin/fifthapp/client/? HTTP/1.1" 200 18558
+INFO 2024-07-30 21:39:23,832 basehttp 7420 13412 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:39:44,854 autoreload 7420 10348 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:39:46,248 autoreload 9548 8288 Watching for file changes with StatReloader
+INFO 2024-07-30 21:39:48,852 autoreload 9548 8288 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:39:49,732 autoreload 2224 2736 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:02,273 autoreload 2224 2736 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:40:03,461 autoreload 5108 9176 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:05,976 autoreload 5108 9176 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:40:07,038 autoreload 10308 7644 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:34,130 autoreload 10308 7644 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:40:35,144 autoreload 5068 12940 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:36,458 autoreload 5068 12940 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:40:37,242 autoreload 12616 11128 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:39,575 autoreload 12616 11128 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:40:40,727 autoreload 8080 7068 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:55,493 autoreload 8080 7068 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:40:56,457 autoreload 3996 4356 Watching for file changes with StatReloader
+INFO 2024-07-30 21:40:59,429 basehttp 3996 12092 "GET /admin/fifthapp/client/? HTTP/1.1" 200 16770
+INFO 2024-07-30 21:40:59,515 basehttp 3996 12092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:41:15,868 basehttp 3996 12092 "GET /admin/fifthapp/client/add/ HTTP/1.1" 200 11628
+INFO 2024-07-30 21:41:15,928 basehttp 3996 12092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:41:20,703 basehttp 3996 12092 "GET /admin/fifthapp/product/ HTTP/1.1" 200 16946
+INFO 2024-07-30 21:41:20,746 basehttp 3996 12092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:41:22,107 basehttp 3996 12092 "GET /admin/fifthapp/product/add/ HTTP/1.1" 200 12220
+INFO 2024-07-30 21:41:22,142 basehttp 3996 12092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:41:34,951 basehttp 3996 12092 "GET /admin/fifthapp/order/ HTTP/1.1" 200 20966
+INFO 2024-07-30 21:41:34,998 basehttp 3996 12092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:41:39,635 basehttp 3996 12092 "GET /admin/fifthapp/order/add/ HTTP/1.1" 200 12559
+INFO 2024-07-30 21:41:39,674 basehttp 3996 12092 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:42:20,341 autoreload 3996 4356 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:42:21,227 autoreload 2736 3456 Watching for file changes with StatReloader
+INFO 2024-07-30 21:42:23,548 autoreload 2736 3456 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:42:24,283 autoreload 4848 5668 Watching for file changes with StatReloader
+INFO 2024-07-30 21:42:27,620 autoreload 4848 5668 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:42:28,450 autoreload 10588 7784 Watching for file changes with StatReloader
+INFO 2024-07-30 21:44:07,163 autoreload 10588 7784 D:\LESSONS\PYTHON\Django\DZ\Task1\fifthapp\admin.py changed, reloading.
+INFO 2024-07-30 21:44:08,024 autoreload 3456 5756 Watching for file changes with StatReloader
+INFO 2024-07-30 21:44:13,664 basehttp 3456 5668 "GET /admin/fifthapp/count/ HTTP/1.1" 200 42721
+INFO 2024-07-30 21:44:13,812 basehttp 3456 5668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:44:26,028 basehttp 3456 5668 "GET /admin/fifthapp/order/ HTTP/1.1" 200 20966
+INFO 2024-07-30 21:44:26,062 basehttp 3456 5668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:44:28,405 basehttp 3456 5668 "GET /admin/fifthapp/count/ HTTP/1.1" 200 42721
+INFO 2024-07-30 21:44:28,445 basehttp 3456 5668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:44:30,960 basehttp 3456 5668 "GET /admin/fifthapp/count/add/ HTTP/1.1" 200 18947
+INFO 2024-07-30 21:44:30,997 basehttp 3456 5668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:55:21,030 basehttp 3456 10508 "GET /admin/fifthapp/order/ HTTP/1.1" 200 20966
+INFO 2024-07-30 21:55:21,083 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:55:23,515 basehttp 3456 10508 "GET /admin/fifthapp/order/add/ HTTP/1.1" 200 12559
+INFO 2024-07-30 21:55:23,566 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:55:44,928 basehttp 3456 10508 "GET /admin/fifthapp/count/ HTTP/1.1" 200 42721
+INFO 2024-07-30 21:55:44,968 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:55:53,933 basehttp 3456 10508 "GET /admin/fifthapp/product/ HTTP/1.1" 200 16946
+INFO 2024-07-30 21:55:53,973 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:55:55,177 basehttp 3456 10508 "GET /admin/fifthapp/order/ HTTP/1.1" 200 20966
+INFO 2024-07-30 21:55:55,218 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:55:56,650 basehttp 3456 10508 "GET /admin/fifthapp/count/ HTTP/1.1" 200 42721
+INFO 2024-07-30 21:55:56,683 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:56:05,918 basehttp 3456 10508 "GET /admin/fifthapp/product/ HTTP/1.1" 200 16946
+INFO 2024-07-30 21:56:05,963 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-30 21:56:25,220 basehttp 3456 10508 "GET /admin/fifthapp/product/add/ HTTP/1.1" 200 12220
+INFO 2024-07-30 21:56:25,263 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546

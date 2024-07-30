@@ -27,7 +27,10 @@ class Order(models.Model):
     product = models.ManyToManyField(Product, through='Count') 
     total_price = models.DecimalField(max_digits=8, decimal_places=2, default=0)
     date_ordered = models.DateTimeField(auto_now_add=True)
-
+    
+    def client_name(self):
+        return self.client.name
+    
     def __str__(self):
         itog_str = ""
         for i in self.product.all():
@@ -39,6 +42,12 @@ class Count(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     count_product = models.PositiveIntegerField(default=0)
     
+    def order_id(self):
+        return self.order.id
+    
+    def product_name(self):
+        return self.product.name
+
     def save_order(self):
        self.count_product += 1
        return self.count_product
