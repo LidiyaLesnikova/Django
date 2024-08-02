@@ -6121,3 +6121,40 @@ INFO 2024-07-30 21:56:05,918 basehttp 3456 10508 "GET /admin/fifthapp/product/ H
 INFO 2024-07-30 21:56:05,963 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-07-30 21:56:25,220 basehttp 3456 10508 "GET /admin/fifthapp/product/add/ HTTP/1.1" 200 12220
 INFO 2024-07-30 21:56:25,263 basehttp 3456 10508 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-07-31 19:46:20,125 autoreload 13732 9080 Watching for file changes with StatReloader
+INFO 2024-07-31 19:46:31,422 basehttp 13732 8272 "GET / HTTP/1.1" 200 14458
+INFO 2024-07-31 19:46:31,470 basehttp 13732 8272 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16675
+INFO 2024-07-31 19:46:31,509 basehttp 13732 5792 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-07-31 19:46:31,518 basehttp 13732 14540 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-07-31 19:46:31,542 basehttp 13732 5792 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+WARNING 2024-08-01 08:08:37,678 log 13732 16916 Not Found: /favicon.ico
+WARNING 2024-08-01 08:08:37,784 basehttp 13732 16916 "GET /favicon.ico HTTP/1.1" 404 18541
+INFO 2024-08-01 19:21:48,758 basehttp 13732 9020 "GET / HTTP/1.1" 200 14457
+INFO 2024-08-01 19:21:48,816 basehttp 13732 18364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-08-01 19:21:48,817 basehttp 13732 9020 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-08-01 19:21:48,823 basehttp 13732 18380 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-08-01 19:21:48,859 basehttp 13732 18380 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-08-01 19:21:51,304 basehttp 13732 18380 "GET /__debug__/render_panel/?store_id=931fc4019ff1497ca0358999e9082def&panel_id=HistoryPanel HTTP/1.1" 200 5784
+INFO 2024-08-01 19:21:51,343 basehttp 13732 18380 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-08-01 19:22:20,058 basehttp 13732 18380 "GET /__debug__/render_panel/?store_id=931fc4019ff1497ca0358999e9082def&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-08-01 19:22:30,432 basehttp 13732 18380 "GET /__debug__/render_panel/?store_id=931fc4019ff1497ca0358999e9082def&panel_id=SettingsPanel HTTP/1.1" 200 26741
+INFO 2024-08-01 19:22:35,389 basehttp 13732 18380 "GET /__debug__/render_panel/?store_id=931fc4019ff1497ca0358999e9082def&panel_id=HeadersPanel HTTP/1.1" 200 5294
+INFO 2024-08-01 19:22:38,334 basehttp 13732 18380 "GET /__debug__/render_panel/?store_id=931fc4019ff1497ca0358999e9082def&panel_id=RequestPanel HTTP/1.1" 200 2312
+INFO 2024-08-01 19:22:39,033 basehttp 13732 18380 "GET /__debug__/render_panel/?store_id=931fc4019ff1497ca0358999e9082def&panel_id=SQLPanel HTTP/1.1" 200 428
+WARNING 2024-08-02 09:42:22,886 log 13732 13932 Not Found: /favicon.ico
+WARNING 2024-08-02 09:42:22,977 basehttp 13732 13932 "GET /favicon.ico HTTP/1.1" 404 18542
+INFO 2024-08-02 14:05:21,794 autoreload 13732 9080 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:05:23,758 autoreload 15128 19048 Watching for file changes with StatReloader
+INFO 2024-08-02 14:05:25,603 autoreload 15128 19048 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:05:26,657 autoreload 18660 15196 Watching for file changes with StatReloader
+INFO 2024-08-02 14:06:00,412 autoreload 18660 15196 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:06:01,473 autoreload 18616 17100 Watching for file changes with StatReloader
+INFO 2024-08-02 14:06:59,046 autoreload 18616 17100 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:07:00,095 autoreload 16468 15908 Watching for file changes with StatReloader
+INFO 2024-08-02 14:07:11,233 autoreload 16468 15908 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:07:13,384 autoreload 7032 15308 Watching for file changes with StatReloader
+INFO 2024-08-02 14:07:42,893 autoreload 7032 15308 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:07:43,997 autoreload 19056 5920 Watching for file changes with StatReloader
+INFO 2024-08-02 14:07:48,862 autoreload 19056 5920 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.
+INFO 2024-08-02 14:07:49,873 autoreload 18568 18572 Watching for file changes with StatReloader
+INFO 2024-08-02 14:09:47,287 autoreload 18568 18572 D:\LESSONS\PYTHON\Django\DZ\Task1\Task1\settings.py changed, reloading.

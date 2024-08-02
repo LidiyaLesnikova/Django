@@ -27,4 +27,5 @@ urlpatterns = [
     path('clients/',include('fifthapp.urls')),
     path('products/',include('fifthapp.urls')),
     path('orders/',include('fifthapp.urls')),
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]
